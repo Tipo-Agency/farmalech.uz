@@ -70,7 +70,7 @@ export default function ProductDetailPage({ params }: { params: Promise<{ slug: 
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-brand-dark">{product.name}</h1>
             <p className="mt-4 text-lg text-gray-600">{product.description}</p>
             <Badge  className="mt-6 w-fit text-base">
-              {product.dispensing || "БАД. Не является лекарственным средством."}
+              {product.dispensing || "БАД."}
             </Badge>
 
             <div className="mt-10">

@@ -42,7 +42,7 @@ export const productTranslations = {
         "Фиброз печени",
         "Цирроз печени",
       ],
-      dispensing: "Без рецепта. БАД. Не является лекарственным средством.",
+      dispensing: "Без рецепта. БАД.",
       manufacturer: "ООО «AF FARMALECH», г. Ташкент, Сергелийский р-н, ул. Нилуфар, 3 проезд, 2. Тел: +99899 037-33-00",
     },
     altex: {
@@ -56,14 +56,13 @@ export const productTranslations = {
         "Экстракт корня солодки - 25 мг",
         "Натрия гидрокарбонат - 100 мг",
         "Ацетилцистеин (АЦЦ) - 200 мг",
-        "Вспомогательные вещества: МКЦ, мальтодекстрин, крахмал",
       ],
       indications: [
         "Состояния, сопровождающиеся кашлем с трудноотделяемой мокротой",
         "Острые и хронические воспалительные заболевания дыхательных путей (трахеит, трахеобронхит, бронхит)",
         "Комплексная терапия заболеваний, сопровождающихся кашлем и образованием мокроты",
       ],
-      dispensing: "Без рецепта. БАД. Не является лекарственным средством.",
+      dispensing: "Без рецепта. БАД.",
       manufacturer: "ООО «AF FARMALECH»",
     },
     "us-botik": {
@@ -81,7 +80,7 @@ export const productTranslations = {
         "Улучшение функций органов пищеварения",
         "Нормализация оттока желчи и улучшение переваривания пищи",
       ],
-      dispensing: "Без рецепта. БАД. Не является лекарственным средством.",
+      dispensing: "Без рецепта. БАД.",
       manufacturer: "ООО «AF FARMALECH», г. Ташкент, Яшнабадский район, ул. Камаши, 27",
     },
     provir: {
@@ -98,6 +97,7 @@ export const productTranslations = {
         "Экстракт Алоэ - 6 г",
         "Экстракт листьев эвкалипта - 2 г",
         "Вспомогательные вещества: Полисорбат 80, этанол - 50 мл",
+        "Настойка - 150 мл"
       ],
       indications: [
         "Заболевания органов ЛОР (отит, гайморит, фронтит)",
@@ -110,7 +110,7 @@ export const productTranslations = {
         "Очищение верхних дыхательных путей и носовых ходов",
       ],
       usage: "⚠️ Нельзя применять неразбавленный препарат! При желудочно-кишечных расстройствах: разбавить 1:5. При респираторных заболеваниях: для промывания 1:3, для внутреннего употребления 1:5. Дети с 12 лет и взрослые: по 1-2 столовые ложки 3 раза в день. При гинекологических заболеваниях: применять в соотношении 1:4. Курс приема определяет врач.",
-      dispensing: "Без рецепта. БАД. Не является лекарственным средством.",
+      dispensing: "Без рецепта. БАД.",
       manufacturer: "ООО «AF FARMALECH»",
     },
   },
@@ -141,7 +141,7 @@ export const productTranslations = {
       releaseForm: "Blisterda 10 donadan kapsulalar. Karton qutida 3 blister (30 kapsuladan) qo'llash yo'riqnomasi bilan birga.",
       storage: "Bolalardan uzoq, yorug'likdan himoyalangan, +25°C dan yuqori bo'lmagan haroratda saqlang.",
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
-      dispensing: "Retseptsiz. BAQ. Dori vositasi emas.",
+      dispensing: "Retseptsiz. BAQ.",
       manufacturer:
         "\"AF FARMALECH\" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko'ch., 3-o'tish, 2. Tel: +99899 037-33-00",
     },
@@ -156,7 +156,6 @@ export const productTranslations = {
         "Miya ildizi ekstrakti - 25 mg",
         "Natriy gidrokarbonat - 100 mg",
         "Atsetilsistein (ACC) - 200 mg",
-        "Yordamchi moddalar: MKTs, maltodekstrin, kraxmal",
       ],
       pharmacology: "Altey ekstrakti - o'rab oluvchi, himoyalovchi, yumshatuvchi, yallig'lanishga qarshi xususiyatlarga ega, balg'am chiqaruvchi va ma'lum darajada og'riq qoldiruvchi ta'sir ko'rsatadi. Surunkali bronxitlar, traxeitlar, laringitlar, bronxopnevmoniyalar va bronxial astmada qo'llaniladi. Termopsis o'ti - balg'am chiqaruvchi ta'sirga ega, oshqozon shilliq pardasi retseptorlariga o'rtacha qichitqi ta'sir etib, refleks yo'li bilan bronxial bezlar sekretsiyasini oshiradi. Tarkibidagi alkaloidlar (sitizin, metilsitizin, paxikarpin, anagirin, termopsin, termopsidin) nafas markaziga qo'zg'atuvchi ta'sir ko'rsatadi. Miya ildizi - eng qimmatli faol komponent glitsirizin nafas yo'llarining ichki yuzasini qoplaydigan epiteliy faolligini kuchaytiradi va shilimshiq ishlab chiqarishni faollashtiradi, buning hisobiga balg'am chiqaruvchi ta'sir ko'rsatadi. Yallig'lanishga qarshi va yaraga qarshi ta'sirga ega, qonni suyultiradi. Natriy gidrokarbonat bronxial bezlar sekretsiyasini rag'batlantiradi, balg'am qovushqoqligini kamaytirishga yordam beradi. Qiyin chiqadigan balg'am bilan yo'talda (bronxit, traxeit) kompleks terapiya tarkibida qo'llaniladi. Atsetilsistein - sistein aminokislotasining hosilasi hisoblanadi. Mukalitik ta'sir ko'rsatadi, balg'amning reologik xususiyatlariga bevosita ta'sir etish hisobiga balg'am chiqarishni osonlashtiradi, bu esa uning qovushqoqligini kamaytirishga olib keladi. Preparat yiringli balg'am mavjud bo'lganda ham faolligini saqlaydi.",
       indications: [
@@ -170,7 +169,7 @@ export const productTranslations = {
       releaseForm: "Blisterda 10 donadan tabletalar. Karton qutida 3 blister qo'llash yo'riqnomasi bilan birga.",
       storage: "Bolalardan uzoq, quruq, yorug'likdan himoyalangan joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
-      dispensing: "Retseptsiz. BAQ. Dori vositasi emas.",
+      dispensing: "Retseptsiz. BAQ.",
       manufacturer: '"AF FARMALECH" MChJ',
     },
     "us-botik": {
@@ -195,12 +194,12 @@ export const productTranslations = {
         "O't oqimini normallash va ovqat hazm qilishni yaxshilash",
       ],
       usage: "Ovqatdan keyin ichkariga. Sashe-paketning mazmuni 30 ml qaynatilgan, sovutilgan suvda aralashtiriladi. Kuchaygan gaz hosil bo'lishida: 3 oydan 2 yoshgacha bolalar kuniga 3 marta 1 choy qoshiq, 2-6 yosh bolalar kuniga 3 marta 2 choy qoshiq, 6 yoshdan katta bolalar kuniga 3 marta 1 osh qoshiq, 12 yoshdan katta bolalar kuniga 2 marta 1 sashe-paket, kattalar kuniga 3-4 marta 1 sashe-paket.",
-      contraindications: "Komponentlarga yuqori sezuvchanlik, 3 oygacha bolalar yoshi, homiladorlik yoki emizish, to'liq ichak o'tmasligi.",
+      contraindications: "Komponentlarga yuqori sezuvchanlik, homiladorlik yoki emizish, to'liq ichak o'tmasligi.",
       overdose: "Preparat komponentlariga allergik reaktsiyalar mumkin. Oziq-ovqat qo'shimchalari to'laqonli ratsion o'rnini bosmaydi.",
       releaseForm: "2,0 g №10 sashe-paketlar karton qadoqda qo'llash yo'riqnomasi bilan.",
       storage: "Bolalardan uzoq, quruq, yorug'likdan himoyalangan joyda +4°C dan +25°C gacha haroratda, namlik 80% dan ortiq bo'lmagan joyda saqlang.",
       shelfLife: "3 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
-      dispensing: "Retseptsiz. BAQ. Dori vositasi emas.",
+      dispensing: "Retseptsiz. BAQ.",
       manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Yashnobod tumani, Kamashi ko\'ch., 27',
     },
     lidafron: {
@@ -230,13 +229,13 @@ export const productTranslations = {
         "Siydik chiqarishni normallash va og'riqlarni kamaytirish",
         "Urologik kasalliklarning takroriy asoratlar xavfini kamaytirish",
       ],
-      usage: "Kattalar: kuniga 3 marta 2 kapsuladan. Maktab yoshidagi bolalar: kuniga 3 marta 1 kapsuladan. Kasallik o'tkir belgisidan keyin 2-4 hafta davomida davolanishni davom ettirish kerak. Davolanish vaqtida ko'p suyuqlik iste'mol qilish tavsiya etiladi.",
+      usage: "Kattalar: kuniga 3 marta 2 tabletkadan. Maktab yoshidagi bolalar: kuniga 3 marta 1 tabletkadan. Kasallik o'tkir belgisidan keyin 2-4 hafta davomida davolanishni davom ettirish kerak. Davolanish vaqtida ko'p suyuqlik iste'mol qilish tavsiya etiladi.",
       contraindications: "Komponentlarning birortasiga yuqori sezuvchanlik, buyrak funksiyasining og'ir buzilishi, homiladorlik va emizish davri (faqat shifokor tayinlamasiga ko'ra foyda va zarar nisbatini baholagandan keyin).",
       overdose: "Mahsulot odatda yaxshi ko'tariladi. Kamdan-kam hollarda ko'ngil aynishi, allergik reaktsiyalar mumkin. Noxush hodisalar paydo bo'lsa, shifokor bilan maslahatlashing.",
-      releaseForm: "Blisterda 10 donadan qattiq polisakharid kapsulalar. Karton qutida 6 blister (60 kapsuladan) qo'llash yo'riqnomasi bilan birga.",
+      releaseForm: "Blisterda 10 donadan qattiq polisakharid kapsulalar. Karton qutida 6 blister (60 tabletkadan) qo'llash yo'riqnomasi bilan birga.",
       storage: "Bolalardan uzoq, quruq, yorug'likdan himoyalangan joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "3 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
-      dispensing: "Retseptsiz. BAQ. Dori vositasi emas.",
+      dispensing: "Retseptsiz. BAQ.",
       manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'ch., 3 uchastak 2',
     },
     fitovag: {
@@ -270,7 +269,7 @@ export const productTranslations = {
       releaseForm: "Ochiq jigarrang dan qizil-jigarrang ranggacha, 1,5 g vazndagi qattiq suppozitoriyalar. Qadoqda har birida 5 donadan 2 blisterda 10 suppozitoriy.",
       storage: "Quruq, qorong'i joyda +10°C dan yuqori bo'lmagan haroratda, bolalardan uzoq joyda saqlang.",
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang. Yaroqlilik muddati ochilmagan va belgilangan sharoitlarda saqlangan mahsulotga tegishli.",
-      dispensing: "Retseptsiz. Dori vositasi emas.",
+      dispensing: "Retseptsiz.",
       manufacturer: '"AF FARMALECH" MChJ',
     },
     "ca-tron": {
@@ -303,7 +302,7 @@ export const productTranslations = {
       releaseForm: "N50 tabletalar qopqoqli PET flakonida. Karton qutida qo'llash yo'riqnomasi bilan.",
       storage: "Bolalardan uzoq, quruq, yorug'likdan himoyalangan joyda +4°C dan +25°C gacha haroratda, namlik 80% dan ortiq bo'lmagan joyda saqlang.",
       shelfLife: "3 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
-      dispensing: "Retseptsiz. BAQ. Dori vositasi emas.",
+      dispensing: "Retseptsiz. BAQ.",
       manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Chilonzor tumani, 3 kvartal, 21 uy, 31 kv',
     },
     "ferrum-life": {
@@ -313,9 +312,8 @@ export const productTranslations = {
         "FERRUM LIFE - bu temir (III) gidroksid polimalttozatni o'z ichiga olgan sirop bo'lib, gemoglobin sintezi va eritrotsitlar pishishi uchun zarur. Preparat organizmda temir tanqisligini tezda to'ldiradi, eritropoezni faollashtiradi va gemoglobinni tiklaydi.",
       composition: [
         "Temir (III) gidroksid polimalttozat (6 mg Fe ga teng) - 4,0 g",
-        "Shakar siropi - 200 ml gacha",
         "Qizil lavlagi - 300 mg",
-        "Mayiz - 300 mg",
+        "Kishmish - 300 mg",
         "Itburun - 300 mg",
       ],
       pharmacology: "Temir (III) gidroksid polimalttozat - kam allergenlik bilan kompleks. Gemoglobin sintezi va eritrotsitlarning pishishi uchun zarur bo'lgan muvozanatni to'ldiradi. Temir biokatalitik vazifasini bajaradi, hujayralar uchun kislorod etkazib beradigan fermentlarning tarkibiy qismidir va o'pkalardan karbonat angidridni chiqarishga yordam beradi, hujayra nafas olishini ta'minlaydi. Erkin Fe ionlarini ajratmaydi, tuzilishi jihatidan tabiiy Fe birikmasiga va ferritinga o'xshaydi. Lavlagi suvi - toksinlarni chiqarishga yordam beradi, gemoglobin ko'rsatkichlari uchun muhim bo'lgan B vitaminiga boy. Qora mayiz - metabolizmda ishtirok etadi, immunitetni qo'llab-quvvatlaydi, to'qimalar regeneratsiyasiga yordam beradi. Itburun - C, A, B, P, K vitaminlari, minerallar va mikroelementlar manbai.",
@@ -333,7 +331,7 @@ export const productTranslations = {
       releaseForm: "200 ml polietilen flakonida sirop. Karton qutida qo'llash yo'riqnomasi bilan.",
       storage: "Quruq, yorug'likdan himoyalangan, bolalardan uzoq joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "2 yil. Yaroqlilik muddati tugagandan keyin ishlatmang.",
-      dispensing: "Retseptsiz. BAQ. Dori vositasi emas.",
+      dispensing: "Retseptsiz. BAQ.",
       manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Yashnobod tumani, Kamashi ko\'ch., 27',
     },
     kukavit: {
@@ -375,10 +373,10 @@ export const productTranslations = {
       usage: "10 yoshdan katta bolalar va kattalar: ovqatdan keyin ertalab suv bilan kuniga 1 marta 1 tabletka/kapsuladan. Qabul kursi: 20 kun (davolovchi shifokor tavsiyasiga ko'ra takrorlanishi mumkin).",
       contraindications: "Preparat komponentlariga individual yuqori sezuvchanlik, 10 yoshgacha bolalar yoshi. Homilador va emizikli ayollar faqat shifokor tavsiyasiga ko'ra qo'llashi mumkin.",
       overdose: "Preparat komponentlariga allergik reaktsiyalar mumkin. Noxush reaktsiyalar rivojlanganda qabul qilishni to'xtatish va shifokorga murojaat qilish kerak.",
-      releaseForm: "Blisterda 10 donadan tabletalar. Karton qutida 3 blister (30 tabletadan) qo'llash yo'riqnomasi bilan birga.",
+      releaseForm: "Blisterda 10 donadan tabletalar. Karton qutida 3 flakonda (30 tabletadan) qo'llash yo'riqnomasi bilan birga.",
       storage: "Quruq, yorug'likdan himoyalangan, bolalardan uzoq joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
-      dispensing: "Retseptsiz. BAQ. Dori vositasi emas.",
+      dispensing: "Retseptsiz. BAQ.",
       manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Yashnobod tumani, Kamashi ko\'ch., 27',
     },
     novaton: {
@@ -410,7 +408,7 @@ export const productTranslations = {
       releaseForm: "Blisterda 10 donadan qattiq polisakharid kapsulalar. Karton qutida 3 blister qo'llash yo'riqnomasi bilan birga.",
       storage: "Bolalardan uzoq, quruq, yorug'likdan himoyalangan joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "3 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
-      dispensing: "Retseptsiz. BAQ. Dori vositasi emas.",
+      dispensing: "Retseptsiz. BAQ.",
       manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Chilonzor tumani, 3 kvartal, 21 uy, 31 kv',
     },
     protab: {
@@ -451,7 +449,7 @@ export const productTranslations = {
       releaseForm: "Sariq dog'lar bilan oq tabletalar, har biri 250 mg, blisterda 10 donadan. Karton qutida 2 blister (20 tabletadan) qo'llash yo'riqnomasi bilan birga.",
       storage: "Bolalardan uzoq joyda +4°C dan +25°C gacha haroratda, havo namligi 80% dan yuqori bo'lmagan joyda saqlang.",
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
-      dispensing: "Retseptsiz. BAQ. Dori vositasi emas.",
+      dispensing: "Retseptsiz. BAQ.",
       manufacturer: '"AF FARMALECH" MChJ, Toshkent',
     },
     sorbitum: {
@@ -485,7 +483,7 @@ export const productTranslations = {
       releaseForm: "Oq rangdan och kulrang ranggacha, kulrang dan jigarrang ranggacha dog'lar bilan, chiziq bilan tabletalar. Blisterda 30 donadan. Karton qutida 1 blister qo'llash yo'riqnomasi bilan birga.",
       storage: "Quruq, yorug'likdan himoyalangan, bolalardan uzoq joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
-      dispensing: "Retseptsiz. BAQ. Dori vositasi emas.",
+      dispensing: "Retseptsiz. BAQ.",
       manufacturer: '"AF FARMALECH" MChJ',
     },
     provir: {
@@ -502,6 +500,8 @@ export const productTranslations = {
         "Aloe ekstrakti - 6 g",
         "Evkalipt barglari ekstrakti - 2 g",
         "Yordamchi moddalar: Polisorbat 80, etanol - 50 ml",
+        "Damlama - 150 ml"
+        
       ],
       pharmacology: "Ushbu o'simlik kompozitsiyasining umumiy xususiyatlari uning komponentlarining biologik xususiyatlarining bir yo'nalishliligiga asoslangan va shilliq pardalar tuzilishi va fiziologik xususiyatlariga foydali ta'siri, metabolizmni faollashtirishi, antioksidant ta'siri, qon aylanishini yaxshilashi va immunologik xususiyatlar, bakteriyalar va boshqa qo'zg'atuvchilarning rivojlanishiga to'sqinlik qiladigan sharoitlar yaratish bilan tavsiflanadi. Romashka antiseptik va og'riq qoldiruvchi ta'sir ko'rsatadi, regeneratsiya jarayonlarini tezlashtiradi. Marmarak - yallig'lanishga qarshi va antiseptik ta'sir. Kalendula - antimikrob va yallig'lanishga qarshi. Ketma-ket - yallig'lanishga qarshi va antiseptik xususiyatlarga ega. Yalpiz - kuchli antibakterial vosita. Evkalipt - kuchli antiseptik. Aloe - shifo beruvchi va regenerativ ta'sirga ega.",
       indications: [
@@ -520,7 +520,7 @@ export const productTranslations = {
       releaseForm: "150 ml qopqoqli original flakonlarda sirop. Karton quti, qo'llash yo'riqnomasi.",
       storage: "Bolalardan uzoq, quruq, yorug'likdan himoyalangan joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
-      dispensing: "Retseptsiz. BAQ. Dori vositasi emas.",
+      dispensing: "Retseptsiz. BAQ.",
       manufacturer: '"AF FARMALECH" MChJ',
     },
   },
