@@ -119,6 +119,30 @@ const translations = {
     "contacts.form.sending": "Отправка...",
     "contacts.form.success.title": "Сообщение отправлено!",
     "contacts.form.success.message": "Спасибо за ваше сообщение. Мы свяжемся с вами в ближайшее время.",
+
+    // About Us Expanded Section
+    "about.expanded.title": "О компании FARMALECH - Лидере фармацевтической индустрии Узбекистана",
+    "about.expanded.subtitle": "Инновации, качество и доверие в каждом препарате",
+    "about.expanded.main": "FARMALECH — ведущая фармацевтическая компания Узбекистана, специализирующаяся на производстве высококачественных лекарственных средств и биологически активных добавок. С момента основания мы придерживаемся принципов инновационного подхода к разработке препаратов, строгого контроля качества и ответственного отношения к здоровью наших потребителей.",
+    "about.expanded.mission": "Наша миссия — обеспечение доступности эффективных фармацевтических решений для улучшения качества жизни людей в Центральной Азии.",
+    "about.expanded.production": "Современное производство с соблюдением международных стандартов GMP",
+    "about.expanded.research": "Собственная исследовательская лаборатория и отдел разработки",
+    "about.expanded.quality": "Многоступенчатый контроль качества на всех этапах производства",
+    "about.expanded.distribution": "Развитая дистрибьюторская сеть по всему Узбекистану",
+
+    // FAQ Section
+    "faq.title": "Часто задаваемые вопросы",
+    "faq.subtitle": "Ответы на популярные вопросы о нашей продукции и услугах",
+    "faq.question1": "Какие препараты производит FARMALECH?",
+    "faq.answer1": "FARMALECH производит широкий спектр фармацевтических препаратов и БАДов, включая препараты для сердечно-сосудистой системы, желудочно-кишечного тракта, дыхательных путей, а также витаминно-минеральные комплексы. Вся продукция соответствует международным стандартам качества.",
+    "faq.question2": "Как стать дистрибьютором FARMALECH?",
+    "faq.answer2": "Для становления дистрибьютором необходимо заполнить заявку на партнерство на нашем сайте или связаться с нами по телефону +998 99 037 33 00. Мы рассматриваем предложения от аптечных сетей, оптовых поставщиков и региональных дистрибьюторов.",
+    "faq.question3": "Соответствует ли продукция FARMALECH международным стандартам?",
+    "faq.answer3": "Да, все наши препараты производятся в соответствии с требованиями GMP (Good Manufacturing Practice) и проходят строгий контроль качества. Производство сертифицировано по международным стандартам.",
+    "faq.question4": "В каких регионах доступна продукция FARMALECH?",
+    "faq.answer4": "Наша продукция доступна во всех регионах Узбекистана через сеть партнерских аптек и дистрибьюторов. Также мы работаем над расширением присутствия в странах Центральной Азии.",
+    "faq.question5": "Предоставляет ли FARMALECH техническую поддержку?",
+    "faq.answer5": "Да, мы предоставляем полную техническую поддержку нашим партнерам, включая обучение персонала, предоставление маркетинговых материалов и консультации по продвижению продукции.",
   },
   uz: {
     // Header
@@ -226,6 +250,30 @@ const translations = {
     "contacts.form.sending": "Yuborilmoqda...",
     "contacts.form.success.title": "Xabar yuborildi!",
     "contacts.form.success.message": "Xabaringiz uchun rahmat. Biz tez orada siz bilan bog'lanamiz.",
+
+    // About Us Expanded Section
+    "about.expanded.title": "FARMALECH kompaniyasi haqida - O'zbekiston farmatsevtika sohasining yetakchisi",
+    "about.expanded.subtitle": "Har bir preparatda innovatsiya, sifat va ishonch",
+    "about.expanded.main": "FARMALECH — O'zbekistonning yetakchi farmatsevtika kompaniyasi bo'lib, yuqori sifatli dori vositalari va biologik faol qo'shimchalar ishlab chiqarishga ixtisoslashgan. Tashkil etilgan kundan boshlab biz preparatlarni ishlab chiqishda innovatsion yondashuv, qat'iy sifat nazorati va iste'molchilarimiz salomatligiga mas'uliyatli munosabat tamoyillariga amal qilamiz.",
+    "about.expanded.mission": "Bizning missiyamiz — Markaziy Osiyoda odamlarning hayot sifatini yaxshilash uchun samarali farmatsevtika yechimlarining mavjudligini ta'minlash.",
+    "about.expanded.production": "Xalqaro GMP standartlariga muvofiq zamonaviy ishlab chiqarish",
+    "about.expanded.research": "O'z tadqiqot laboratoriyasi va ishlab chiqish bo'limi",
+    "about.expanded.quality": "Ishlab chiqarishning barcha bosqichlarida ko'p bosqichli sifat nazorati",
+    "about.expanded.distribution": "Butun O'zbekiston bo'ylab rivojlangan distribyutor tarmog'i",
+
+    // FAQ Section
+    "faq.title": "Tez-tez beriladigan savollar",
+    "faq.subtitle": "Mahsulotlarimiz va xizmatlarimiz haqida mashhur savollarga javoblar",
+    "faq.question1": "FARMALECH qanday preparatlar ishlab chiqaradi?",
+    "faq.answer1": "FARMALECH farmatsevtika preparatlari va BAQlarning keng spektrini ishlab chiqaradi, jumladan yurak-qon tomir tizimi, oshqozon-ichak trakti, nafas yo'llari uchun preparatlar, shuningdek vitamin-mineral komplekslari. Barcha mahsulotlar xalqaro sifat standartlariga javob beradi.",
+    "faq.question2": "FARMALECH distribyutori qanday bo'lish mumkin?",
+    "faq.answer2": "Distribyutor bo'lish uchun bizning saytimizda hamkorlik uchun ariza to'ldirish yoki +998 99 037 33 00 raqamiga qo'ng'iroq qilish kerak. Biz dorixona tarmoqlari, ulgurji yetkazib beruvchilar va mintaqaviy distribyutorlardan takliflarni ko'rib chiqamiz.",
+    "faq.question3": "FARMALECH mahsulotlari xalqaro standartlarga muvofiqligi?",
+    "faq.answer3": "Ha, bizning barcha preparatlarimiz GMP (Good Manufacturing Practice) talablariga muvofiq ishlab chiqariladi va qat'iy sifat nazoratidan o'tadi. Ishlab chiqarish xalqaro standartlar bo'yicha sertifikatlangan.",
+    "faq.question4": "FARMALECH mahsulotlari qaysi hududlarda mavjud?",
+    "faq.answer4": "Bizning mahsulotlarimiz hamkor dorixonalar va distribyutorlar tarmog'i orqali O'zbekistonning barcha hududlarida mavjud. Shuningdek, biz Markaziy Osiyo davlatlarida ham ishtirokimizni kengaytirishga ishlamoqdamiz.",
+    "faq.question5": "FARMALECH texnik yordam beradimi?",
+    "faq.answer5": "Ha, biz hamkorlarimizga to'liq texnik yordam beramiz, jumladan xodimlarni o'qitish, marketing materiallarini taqdim etish va mahsulotni targ'ib qilish bo'yicha maslahatlar.",
   },
 }
 

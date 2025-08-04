@@ -7,17 +7,14 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { CheckCircle } from "lucide-react"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { CheckCircle, Award, Users, Shield, Factory } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
-// Импортировать хук
 import { useTranslatedProducts } from "@/lib/translated-products"
 
 export default function HomePage() {
   const { t } = useLanguage()
-  // В компоненте заменить:
-  // На:
   const translatedProducts = useTranslatedProducts()
-  const featuredProducts = translatedProducts.slice(0, 3)
 
   return (
     <div className="flex flex-col min-h-dvh">
@@ -57,28 +54,35 @@ export default function HomePage() {
         <section id="about" className="w-full py-12 md:py-24">
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">{t("about.title")}</h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  {t("about.description")}
+              <div className="space-y-2 flex flex-col items-center">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center">{t("about.expanded.title")}</h2>
+                <p className="max-w-[900px] text-muted-foreground text-lg md:text-xl font-medium text-center mx-auto">
+                  {t("about.expanded.subtitle")}
+                </p>
+                <p className="max-w-[1000px] text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed mt-6 text-center mx-auto">
+                  {t("about.expanded.main")}
+                </p>
+                <p className="max-w-[900px] text-primary font-semibold md:text-lg/relaxed mt-4 text-center mx-auto">
+                  {t("about.expanded.mission")}
                 </p>
               </div>
             </div>
-            <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 mt-12">
-              <div className="grid gap-1 text-center">
-                <CheckCircle className="h-10 w-10 mx-auto text-primary" />
-                <h3 className="text-lg font-bold">{t("about.quality")}</h3>
-                <p className="text-sm text-muted-foreground">{t("about.quality.desc")}</p>
+            <div className="mx-auto grid max-w-6xl items-start gap-8 sm:grid-cols-2 lg:grid-cols-4 mt-16">
+              <div className="grid gap-3 text-center">
+                <Factory className="h-12 w-12 mx-auto text-primary" />
+                <h3 className="text-lg font-bold">{t("about.expanded.production")}</h3>
               </div>
-              <div className="grid gap-1 text-center">
-                <CheckCircle className="h-10 w-10 mx-auto text-primary" />
-                <h3 className="text-lg font-bold">{t("about.innovation")}</h3>
-                <p className="text-sm text-muted-foreground">{t("about.innovation.desc")}</p>
+              <div className="grid gap-3 text-center">
+                <Award className="h-12 w-12 mx-auto text-primary" />
+                <h3 className="text-lg font-bold">{t("about.expanded.research")}</h3>
               </div>
-              <div className="grid gap-1 text-center">
-                <CheckCircle className="h-10 w-10 mx-auto text-primary" />
-                <h3 className="text-lg font-bold">{t("about.partnership")}</h3>
-                <p className="text-sm text-muted-foreground">{t("about.partnership.desc")}</p>
+              <div className="grid gap-3 text-center">
+                <Shield className="h-12 w-12 mx-auto text-primary" />
+                <h3 className="text-lg font-bold">{t("about.expanded.quality")}</h3>
+              </div>
+              <div className="grid gap-3 text-center">
+                <Users className="h-12 w-12 mx-auto text-primary" />
+                <h3 className="text-lg font-bold">{t("about.expanded.distribution")}</h3>
               </div>
             </div>
           </div>
@@ -91,14 +95,14 @@ export default function HomePage() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">{t("products.title")}</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">{t("products.description")}</p>
             </div>
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {featuredProducts.map((product) => (
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {translatedProducts.map((product) => (
                 <Card key={product.slug} className="overflow-hidden">
                   <CardHeader className="p-0">
                     <div className="w-full h-60 bg-white flex items-center justify-center">
                       <Image
                         src={product.image || "/placeholder.svg"}
-                        alt={product.name}
+                        alt={`${product.name} - фармацевтический препарат FARMALECH`}
                         width={400}
                         height={400}
                         className="max-w-full max-h-full object-contain"
@@ -114,13 +118,6 @@ export default function HomePage() {
                   </CardContent>
                 </Card>
               ))}
-            </div>
-            <div className="text-center mt-12">
-              <Link href="/products">
-                <Button size="lg" variant="outline">
-                  {t("products.catalog")}
-                </Button>
-              </Link>
             </div>
           </div>
         </section>
@@ -166,6 +163,60 @@ export default function HomePage() {
                 </form>
               </CardContent>
             </Card>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section id="faq" className="w-full py-12 md:py-24 bg-brand-gray">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">{t("faq.title")}</h2>
+              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">{t("faq.subtitle")}</p>
+            </div>
+            <div className="mx-auto max-w-4xl">
+              <Accordion type="single" collapsible className="w-full">
+                <AccordionItem value="item-1" className="bg-white rounded-lg mb-4 px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold">
+                    {t("faq.question1")}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground text-base">
+                    {t("faq.answer1")}
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-2" className="bg-white rounded-lg mb-4 px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold">
+                    {t("faq.question2")}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground text-base">
+                    {t("faq.answer2")}
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-3" className="bg-white rounded-lg mb-4 px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold">
+                    {t("faq.question3")}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground text-base">
+                    {t("faq.answer3")}
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-4" className="bg-white rounded-lg mb-4 px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold">
+                    {t("faq.question4")}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground text-base">
+                    {t("faq.answer4")}
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-5" className="bg-white rounded-lg mb-4 px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold">
+                    {t("faq.question5")}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground text-base">
+                    {t("faq.answer5")}
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            </div>
           </div>
         </section>
       </main>

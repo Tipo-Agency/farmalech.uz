@@ -9,9 +9,62 @@ import { LanguageProvider } from "@/contexts/language-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "FARMALECH - Pharmaceutical Company",
-  description: "Innovative healthcare solutions. We invite distributors and pharmacy networks to partnership.",
-  generator: 'v0.dev',
+  title: "FARMALECH - Фармацевтическая компания в Узбекистане | Производство лекарств",
+  description: "FARMALECH — ведущий производитель фармацевтических препаратов в Узбекистане. Качественные лекарства, партнерство с дистрибьюторами и аптеками.",
+  keywords: "фармацевтическая компания, производство лекарств, препараты Узбекистан, FARMALECH, дистрибьюторы лекарств, аптечные сети",
+  authors: [{ name: "FARMALECH" }],
+  creator: "FARMALECH",
+  publisher: "FARMALECH",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://farmalech.uz'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'ru': '/ru',
+      'uz': '/uz',
+    },
+  },
+  openGraph: {
+    title: "FARMALECH - Фармацевтическая компания в Узбекистане",
+    description: "Ведущий производитель качественных фармацевтических препаратов. Инновации в медицине, партнерство с дистрибьюторами.",
+    url: 'https://farmalech.uz',
+    siteName: 'FARMALECH',
+    locale: 'ru_RU',
+    type: 'website',
+    images: [
+      {
+        url: '/hero-image.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'FARMALECH - Фармацевтическая компания',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "FARMALECH - Фармацевтическая компания",
+    description: "Ведущий производитель качественных фармацевтических препаратов в Узбекистане",
+    images: ['/hero-image.jpeg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'google-verification-code',
+    yandex: 'yandex-verification-code',
+  },
   manifest: '/manifest.json',
   icons: {
     icon: [
@@ -44,8 +97,76 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "FARMALECH",
+    "alternateName": "AF FARMALECH",
+    "description": "Ведущий производитель фармацевтических препаратов в Узбекистане. Инновационные решения для здравоохранения.",
+    "url": "https://farmalech.uz",
+    "logo": "https://farmalech.uz/placeholder-logo.png",
+    "image": "https://farmalech.uz/hero-image.jpeg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Нилуфар, 3 проезд, 2",
+      "addressLocality": "Ташкент",
+      "addressRegion": "Сергелийский район",
+      "addressCountry": "UZ"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+998-99-037-33-00",
+      "email": "info@farmalech.uz",
+      "contactType": "customer service",
+      "areaServed": "UZ",
+      "availableLanguage": ["Russian", "Uzbek"]
+    },
+    "sameAs": [
+      "https://t.me/farmalech",
+      "https://instagram.com/farmalech"
+    ],
+    "foundingDate": "2020",
+    "legalName": "OOO AF FARMALECH",
+    "vatID": "UZ-VAT-123456789",
+    "numberOfEmployees": "50-100",
+    "industry": "Pharmaceutical Manufacturing",
+    "keywords": "фармацевтика, лекарства, производство препаратов, Узбекистан, дистрибьюция",
+    "serviceArea": {
+      "@type": "Country",
+      "name": "Uzbekistan"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Каталог фармацевтических препаратов",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Седок L-arginin",
+            "category": "Биологически активные добавки"
+          }
+        },
+        {
+          "@type": "Offer", 
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Altex",
+            "category": "Фармацевтические препараты"
+          }
+        }
+      ]
+    }
+  }
+
   return (
     <html lang="ru">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className={inter.className}>
         <LanguageProvider>
           <Header />

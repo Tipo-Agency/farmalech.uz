@@ -30,7 +30,7 @@ export default function ProductsPage() {
                   <div className="w-full h-52 bg-white flex items-center justify-center">
                     <Image
                       src={product.image || "/placeholder.svg"}
-                      alt={product.name}
+                      alt={`${product.name} - препарат FARMALECH для здоровья`}
                       width={400}
                       height={400}
                       className="max-w-full max-h-full object-contain"
