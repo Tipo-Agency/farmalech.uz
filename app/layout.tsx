@@ -9,9 +9,9 @@ import { LanguageProvider } from "@/contexts/language-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "FARMALECH - Фармацевтическая компания в Узбекистане | Производство лекарств",
-  description: "FARMALECH — ведущий производитель фармацевтических препаратов в Узбекистане. Качественные лекарства, партнерство с дистрибьюторами и аптеками.",
-  keywords: "фармацевтическая компания, производство лекарств, препараты Узбекистан, FARMALECH, дистрибьюторы лекарств, аптечные сети",
+  title: "FARMALECH - Производство БАДов в Узбекистане | Биологически активные добавки",
+  description: "FARMALECH — производитель высококачественных биологически активных добавок (БАДов) в Узбекистане. Партнерство с дистрибьюторами и аптеками.",
+  keywords: "производство БАД, БАДы Узбекистан, FARMALECH, биологически активные добавки, дистрибьюторы БАД, аптечные сети",
   authors: [{ name: "FARMALECH" }],
   creator: "FARMALECH",
   publisher: "FARMALECH",
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "FARMALECH - Фармацевтическая компания в Узбекистане",
-    description: "Ведущий производитель качественных фармацевтических препаратов. Инновации в медицине, партнерство с дистрибьюторами.",
+    title: "FARMALECH - Производитель БАДов в Узбекистане",
+    description: "Производитель качественных биологически активных добавок (БАДов). Партнерство с дистрибьюторами.",
     url: 'https://farmalech.uz',
     siteName: 'FARMALECH',
     locale: 'ru_RU',
@@ -46,8 +46,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "FARMALECH - Фармацевтическая компания",
-    description: "Ведущий производитель качественных фармацевтических препаратов в Узбекистане",
+    title: "FARMALECH - Производитель БАДов",
+    description: "Производитель качественных БАДов в Узбекистане",
     images: ['/hero-image.jpeg'],
   },
   robots: {
@@ -102,7 +102,7 @@ export default function RootLayout({
     "@type": "Organization",
     "name": "FARMALECH",
     "alternateName": "AF FARMALECH",
-    "description": "Ведущий производитель фармацевтических препаратов в Узбекистане. Инновационные решения для здравоохранения.",
+    "description": "Производитель биологически активных добавок (БАДов) в Узбекистане. Инновационные решения для поддержания здоровья.",
     "url": "https://farmalech.uz",
     "logo": "https://farmalech.uz/placeholder-logo.png",
     "image": "https://farmalech.uz/hero-image.jpeg",
@@ -130,21 +130,21 @@ export default function RootLayout({
     "vatID": "UZ-VAT-123456789",
     "numberOfEmployees": "50-100",
     "industry": "Pharmaceutical Manufacturing",
-    "keywords": "фармацевтика, лекарства, производство препаратов, Узбекистан, дистрибьюция",
+    "keywords": "БАДы, биологически активные добавки, производство БАД, Узбекистан, дистрибьюция",
     "serviceArea": {
       "@type": "Country",
       "name": "Uzbekistan"
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Каталог фармацевтических препаратов",
+      "name": "Каталог биологически активных добавок (БАДов)",
       "itemListElement": [
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Product",
             "name": "Седок L-arginin",
-            "category": "Биологически активные добавки"
+            "category": "Биологически активные добавки (БАД)"
           }
         },
         {
@@ -152,7 +152,7 @@ export default function RootLayout({
           "itemOffered": {
             "@type": "Product",
             "name": "Altex",
-            "category": "Фармацевтические препараты"
+            "category": "Биологически активные добавки (БАД)"
           }
         }
       ]

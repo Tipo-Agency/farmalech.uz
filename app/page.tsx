@@ -11,6 +11,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { CheckCircle, Award, Users, Shield, Factory } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 import { useTranslatedProducts } from "@/lib/translated-products"
+import { cn } from "@/lib/utils"
 
 export default function HomePage() {
   const { t } = useLanguage()
@@ -102,7 +103,7 @@ export default function HomePage() {
                     <div className="w-full h-60 bg-white flex items-center justify-center">
                       <Image
                         src={product.image || "/placeholder.svg"}
-                        alt={`${product.name} - фармацевтический препарат FARMALECH`}
+                        alt={`${product.name} - БАД FARMALECH`}
                         width={400}
                         height={400}
                         className="max-w-full max-h-full object-contain"
@@ -110,7 +111,7 @@ export default function HomePage() {
                     </div>
                   </CardHeader>
                   <CardContent className="p-6">
-                    <h3 className="text-xl font-bold">{product.name}</h3>
+                    <h3 className={cn("text-xl font-bold", product.color || "text-brand-dark")}>{product.name}</h3>
                     <p className="text-muted-foreground mt-2">{product.tagline}</p>
                     <Link href={`/products/${product.slug}`} className="mt-4 inline-block">
                       <Button>{t("products.more")}</Button>

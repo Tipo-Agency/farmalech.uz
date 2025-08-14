@@ -43,13 +43,13 @@ export const productTranslations = {
         "Цирроз печени",
       ],
       dispensing: "Без рецепта. БАД.",
-      manufacturer: "ООО «AF FARMALECH», г. Ташкент, Сергелийский р-н, ул. Нилуфар, 3 проезд, 2. Тел: +99899 037-33-00",
+      manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
     },
     altex: {
-      name: "Altex",
+      name: "Altex (таблетки)",
       tagline: "Комплексное отхаркивающее средство с 5 активными компонентами",
       description:
-        "Altex - это комплексное отхаркивающее средство растительного происхождения, содержащее 5 активных компонентов. Препарат оказывает отхаркивающее, противовоспалительное, секретолитическое и бронхолитическое действие, способствует снижению вязкости мокроты и ускорению её эвакуации. Снижает интенсивность кашля и помогает укреплению иммунитета.",
+        "Altex — это пищевая биологически активная добавка растительного происхождения, содержащая 5 активных компонентов. Способствует облегчению отхождения мокроты и общему самочувствию при простудных состояниях.",
       composition: [
         "Экстракт алтея лекарственного - 50 мг",
         "Экстракт термопсиса - 10 мг",
@@ -63,13 +63,13 @@ export const productTranslations = {
         "Комплексная терапия заболеваний, сопровождающихся кашлем и образованием мокроты",
       ],
       dispensing: "Без рецепта. БАД.",
-      manufacturer: "ООО «AF FARMALECH»",
+      manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
     },
     "us-botik": {
       name: "Усботик",
       tagline: "Специализированное средство от колик и метеоризма для младенцев и детей",
       description:
-        "Усботик - это биологически активная добавка, специально разработанная для устранения колик и метеоризма у младенцев и детей. Содержит симетикон, экстракты ромашки и фенхеля, а также L-карнитин. Препарат способствует выведению газов из кишечника, улучшает пищеварение и устраняет дискомфорт, связанный с кишечными коликами.",
+        "Усботик - это пищевая биологически активная добавка, специально разработанная для устранения колик и метеоризма у младенцев и детей. Содержит симетикон, экстракты ромашки и фенхеля, а также L-карнитин.",
       composition: ["Экстракт ромашки - 10 мг", "Экстракт фенхеля - 1 мг", "Симетикон - 40 мг", "L-карнитин - 100 мг"],
       indications: [
         "Усиленное газообразование и накопление газов в ЖКТ у младенцев и детей",
@@ -81,13 +81,13 @@ export const productTranslations = {
         "Нормализация оттока желчи и улучшение переваривания пищи",
       ],
       dispensing: "Без рецепта. БАД.",
-      manufacturer: "ООО «AF FARMALECH», г. Ташкент, Яшнабадский район, ул. Камаши, 27",
+      manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
     },
     provir: {
       name: "Провир+",
       tagline: "Растительный комплекс из 7 трав для гигиены полости рта и дыхательных путей",
       description:
-        "Провир+ - это эффективное растительное средство на основе 7 лекарственных трав для систематического поддержания гигиенического состояния полости рта, носоглотки и верхних дыхательных путей. Обладает антисептическим, противовоспалительным, регенерирующим и обезболивающим действием. Эффективно удаляет возбудители инфекций, способствует оздоровлению слизистых оболочек.",
+        "Провир+ — это пищевая биологически активная добавка на основе 7 растительных компонентов для поддержания гигиенического состояния полости рта, носоглотки и верхних дыхательных путей.",
       composition: [
         "Цветки ромашки - 10 г",
         "Листья шалфея - 10 г", 
@@ -96,7 +96,6 @@ export const productTranslations = {
         "Душица обыкновенная - 6 г",
         "Экстракт Алоэ - 6 г",
         "Экстракт листьев эвкалипта - 2 г",
-        "Вспомогательные вещества: Полисорбат 80, этанол - 50 мл",
         "Настойка - 150 мл"
       ],
       indications: [
@@ -109,9 +108,51 @@ export const productTranslations = {
         "Поддержание гигиенического состояния полости рта и носоглотки",
         "Очищение верхних дыхательных путей и носовых ходов",
       ],
-      usage: "⚠️ Нельзя применять неразбавленный препарат! При желудочно-кишечных расстройствах: разбавить 1:5. При респираторных заболеваниях: для промывания 1:3, для внутреннего употребления 1:5. Дети с 12 лет и взрослые: по 1-2 столовые ложки 3 раза в день. При гинекологических заболеваниях: применять в соотношении 1:4. Курс приема определяет врач.",
+      usage: "⚠️ Нельзя применять неразбавленный продукт! При желудочно-кишечных расстройствах: разбавить 1:5. При респираторных состояниях: для промывания 1:3, для внутреннего употребления 1:5. Дети с 12 лет и взрослые: по 1-2 столовые ложки 3 раза в день. При гинекологических состояниях: применять в соотношении 1:4. Курс приема определяет специалист.",
       dispensing: "Без рецепта. БАД.",
-      manufacturer: "ООО «AF FARMALECH»",
+      manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    },
+    "ferrum-life-tablets": {
+      name: "FERRUM LIFE (таблетки)",
+      tagline: "БАД с железом в таблетках",
+      description:
+        "FERRUM LIFE (таблетки) — пищевая биологически активная добавка с железом (III) в форме гидроксид полимальтозата и растительными экстрактами свёклы, изюма и шиповника.",
+      composition: [
+        "Железа (III) гидроксид полимальтозат — 400 мг",
+        "Сухой экстракт кишмиша — 100 мг",
+        "Сухой экстракт свеклы красной — 50 мг",
+        "Сухой экстракт шиповника — 50 мг",
+      ],
+      indications: [
+        "Поддержка нормального уровня гемоглобина",
+        "Дополнительный источник железа в рационе",
+        "Поддержка обменных процессов и жизненного тонуса",
+      ],
+      usage:
+        "Принимать внутрь во время еды: взрослым и детям старше 12 лет — по 1 таблетке 1–2 раза в день. Перед применением рекомендуется консультация со специалистом.",
+      dispensing: "Без рецепта. БАД.",
+      manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    },
+    "altex-syrup": {
+      name: "Altex (сироп)",
+      tagline: "БАД в форме сиропа для облегчения отхождения мокроты",
+      description:
+        "Altex (сироп) — пищевая биологически активная добавка с растительными экстрактами и ацетилцистеином, которая способствует разжижению и выведению мокроты, поддерживает комфорт дыхательных путей.",
+      composition: [
+        "Экстракт алтея лекарственного",
+        "Экстракт термопсиса",
+        "Экстракт корня солодки",
+        "Натрия гидрокарбонат",
+        "Ацетилцистеин (АЦЦ)",
+      ],
+      indications: [
+        "Поддержка дыхательных путей при простудных состояниях",
+        "Облегчение отхождения мокроты",
+      ],
+      usage:
+        "Внутрь за 5–10 минут до еды: детям 3–6 лет — 1/2 дозы 3 раза в день; 6–12 лет — по 1 дозе 3 раза в день; с 12 лет и взрослым — по 1–2 дозы 3 раза в день. Длительность: 7–10 дней или по рекомендации специалиста.",
+      dispensing: "Без рецепта. БАД.",
+      manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
     },
   },
   uz: {
@@ -143,10 +184,10 @@ export const productTranslations = {
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
       dispensing: "Retseptsiz. BAQ.",
       manufacturer:
-        "\"AF FARMALECH\" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko'ch., 3-o'tish, 2. Tel: +99899 037-33-00",
+        "\"AF FARMALECH\" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.",
     },
     altex: {
-      name: "Altex",
+      name: "Altex (tabletkalar)",
       tagline: "5 ta faol komponent bilan kompleks balg'am chiqaruvchi vosita",
       description:
         "Altex - bu 5 ta faol komponentni o'z ichiga olgan o'simlik kelib chiqishli kompleks balg'am chiqaruvchi vositadir. Preparat balg'am chiqaruvchi, yallig'lanishga qarshi, sekretolik va bronxolitik ta'sir ko'rsatadi, balg'am qovushqoqligini kamaytiradi va uni chiqarishni tezlashtiradi. Yo'talning intensivligini kamaytiradi va immunitetni mustahkamlashga yordam beradi.",
@@ -170,7 +211,7 @@ export const productTranslations = {
       storage: "Bolalardan uzoq, quruq, yorug'likdan himoyalangan joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
       dispensing: "Retseptsiz. BAQ.",
-      manufacturer: '"AF FARMALECH" MChJ',
+      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.',
     },
     "us-botik": {
       name: "Usbotik",
@@ -200,7 +241,7 @@ export const productTranslations = {
       storage: "Bolalardan uzoq, quruq, yorug'likdan himoyalangan joyda +4°C dan +25°C gacha haroratda, namlik 80% dan ortiq bo'lmagan joyda saqlang.",
       shelfLife: "3 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
       dispensing: "Retseptsiz. BAQ.",
-      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Yashnobod tumani, Kamashi ko\'ch., 27',
+      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.',
     },
     lidafron: {
       name: "Lidafron",
@@ -236,7 +277,7 @@ export const productTranslations = {
       storage: "Bolalardan uzoq, quruq, yorug'likdan himoyalangan joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "3 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
       dispensing: "Retseptsiz. BAQ.",
-      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'ch., 3 uchastak 2',
+      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.',
     },
     fitovag: {
       name: "Fitovag",
@@ -250,7 +291,6 @@ export const productTranslations = {
         "Zerdeçal - 100 mg",
         "Kekik ekstrakti - 100 mg",
         "Rux sulfat - 10 mg",
-        "Yordamchi moddalar: kakao moyi, palma moyi - 1500 mg",
       ],
       pharmacology: "O'simlik komponentlarining kompleks ta'siri ayollar reproduktiv tizimiga yallig'lanishga qarshi, antiseptik, antimikrob, regenerativ va shifo beruvchi ta'sirni ta'minlaydi. Borovaya matka - o'simtaga qarshi, yallig'lanishga qarshi, erituvchi, antimikrob, siydik haydovchi, og'riq qoldiruvchi ta'sirga ega, immunitet tizimini rag'batlantiradi. Bachadon va qo'shimcha a'zolarning funksional faolligini yaxshilaydi, buyrak va siydik pufagida yallig'lanish jarayonlarini kamaytiradi. Dorivor romashka - yallig'lanishga qarshi, spazmolitik, bakteritsid, antieksudativ, reparativ, antiseptik ta'sirga ega. Eman qobig'i - kuchli yallig'lanishga qarshi, antiseptik va shifo beruvchi xususiyatlarga ega. Vaginitlarda, kandidozda, bachadon bo'yni eroziyasida samarali. To'qimalar regeneratsiyasiga va tabiiy mikroflorani tiklashga yordam beradi. Kekik - shilliq pardalarga o'rab oluvchi ta'sir ko'rsatadi, antibakterial faollikka ega. Zerdeçal - kuchli yallig'lanishga qarshi, antimikrob va regenerativ xususiyatlarga ega. Candida zamburug'lariga qarshi samarali. Rux - ginekologik kasalliklarni davolashda muhim rol o'ynaydi, antiseptik, yallig'lanishga qarshi va regenerativ xususiyatlarga ega.",
       indications: [
@@ -270,7 +310,7 @@ export const productTranslations = {
       storage: "Quruq, qorong'i joyda +10°C dan yuqori bo'lmagan haroratda, bolalardan uzoq joyda saqlang.",
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang. Yaroqlilik muddati ochilmagan va belgilangan sharoitlarda saqlangan mahsulotga tegishli.",
       dispensing: "Retseptsiz.",
-      manufacturer: '"AF FARMALECH" MChJ',
+      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.',
     },
     "ca-tron": {
       name: "CA-TRON (Kalsiyitron)",
@@ -303,10 +343,10 @@ export const productTranslations = {
       storage: "Bolalardan uzoq, quruq, yorug'likdan himoyalangan joyda +4°C dan +25°C gacha haroratda, namlik 80% dan ortiq bo'lmagan joyda saqlang.",
       shelfLife: "3 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
       dispensing: "Retseptsiz. BAQ.",
-      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Chilonzor tumani, 3 kvartal, 21 uy, 31 kv',
+      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.',
     },
     "ferrum-life": {
-      name: "FERRUM LIFE",
+      name: "FERRUM LIFE (sirop)",
       tagline: "Temir tanqisligi anemiyasini oldini olish va davolash uchun sirop",
       description:
         "FERRUM LIFE - bu temir (III) gidroksid polimalttozatni o'z ichiga olgan sirop bo'lib, gemoglobin sintezi va eritrotsitlar pishishi uchun zarur. Preparat organizmda temir tanqisligini tezda to'ldiradi, eritropoezni faollashtiradi va gemoglobinni tiklaydi.",
@@ -332,7 +372,7 @@ export const productTranslations = {
       storage: "Quruq, yorug'likdan himoyalangan, bolalardan uzoq joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "2 yil. Yaroqlilik muddati tugagandan keyin ishlatmang.",
       dispensing: "Retseptsiz. BAQ.",
-      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Yashnobod tumani, Kamashi ko\'ch., 27',
+      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.',
     },
     kukavit: {
       name: "Kukavit",
@@ -377,7 +417,7 @@ export const productTranslations = {
       storage: "Quruq, yorug'likdan himoyalangan, bolalardan uzoq joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
       dispensing: "Retseptsiz. BAQ.",
-      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Yashnobod tumani, Kamashi ko\'ch., 27',
+      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.',
     },
     novaton: {
       name: "Novaton",
@@ -409,7 +449,7 @@ export const productTranslations = {
       storage: "Bolalardan uzoq, quruq, yorug'likdan himoyalangan joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "3 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
       dispensing: "Retseptsiz. BAQ.",
-      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Chilonzor tumani, 3 kvartal, 21 uy, 31 kv',
+      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.',
     },
     protab: {
       name: "PROTAB",
@@ -450,7 +490,7 @@ export const productTranslations = {
       storage: "Bolalardan uzoq joyda +4°C dan +25°C gacha haroratda, havo namligi 80% dan yuqori bo'lmagan joyda saqlang.",
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
       dispensing: "Retseptsiz. BAQ.",
-      manufacturer: '"AF FARMALECH" MChJ, Toshkent',
+      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.',
     },
     sorbitum: {
       name: "Sorbitum",
@@ -462,7 +502,6 @@ export const productTranslations = {
         "Olma pektini - 150 mg",
         "Mikrokristallik sellüloza - 208 mg",
         "Laktuloza - 120 mg",
-        "Yordamchi moddalar: kraxmal, maltodekstrin, kalsiy stearat - 700 mg gacha",
       ],
       pharmacology: "Yuqori sorbirlovchi faollik va nospetsifik detoksikatsion ta'sir. Patogen bakteriyalar va bakterial toksinlar, dori preparatlari, zaharlar, og'ir metallar tuzlari, alkogol, allergenlar, shuningdek ba'zi metabolizm mahsulotlarining ortiqcha miqdorini, jumladan bilirubin, xolesterin, karbamid, endogen toksikoz rivojlanishi uchun mas'ul metabolitlarni bog'laydi va organizmdan chiqaradi. Preparat qonga so'rilmaydi va 24 soat ichida ichakdan to'liq chiqariladi. Laktuloza yo'g'on ichakda substrat sifatida ichak normal mikroflorasi tomonidan fermentlanadi, bifidubakteriyalar va laktobatsillalarning o'sishini rag'batlantiradi. Laktulozaning yo'g'on ichakdagi gidrolizi natijasida organik kislotalar - sut, sirka va chumoli kislotalari hosil bo'ladi, ular patogen mikroorganizmlarning o'sishini bosadi.",
       indications: [
@@ -484,7 +523,7 @@ export const productTranslations = {
       storage: "Quruq, yorug'likdan himoyalangan, bolalardan uzoq joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
       dispensing: "Retseptsiz. BAQ.",
-      manufacturer: '"AF FARMALECH" MChJ',
+      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.',
     },
     provir: {
       name: "Provir+",
@@ -499,7 +538,6 @@ export const productTranslations = {
         "Oddiy yalpiz - 6 g",
         "Aloe ekstrakti - 6 g",
         "Evkalipt barglari ekstrakti - 2 g",
-        "Yordamchi moddalar: Polisorbat 80, etanol - 50 ml",
         "Damlama - 150 ml"
         
       ],
@@ -521,7 +559,49 @@ export const productTranslations = {
       storage: "Bolalardan uzoq, quruq, yorug'likdan himoyalangan joyda +4°C dan +25°C gacha haroratda saqlang.",
       shelfLife: "2 yil. Paketda ko'rsatilgan yaroqlilik muddati tugagandan keyin ishlatmang.",
       dispensing: "Retseptsiz. BAQ.",
-      manufacturer: '"AF FARMALECH" MChJ',
+      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.',
+    },
+    "ferrum-life-tablets": {
+      name: "FERRUM LIFE (tabletkalar)",
+      tagline: "Temir bilan tabletkalardagi BAQ",
+      description:
+        "FERRUM LIFE (tabletkalar) — temir (III) gidroksid polimalttozat va lavlagi, mayiz hamda itburun ekstraktlari asosidagi biologik faol qo'shimcha.",
+      composition: [
+        "Temir (III) gidroksid polimalttozat — 400 mg",
+        "Mayiz quruq ekstrakti — 100 mg",
+        "Qizil lavlagi quruq ekstrakti — 50 mg",
+        "Shippur (itburun) quruq ekstrakti — 50 mg",
+      ],
+      indications: [
+        "Gemoglobin darajasini qo'llab-quvvatlash",
+        "Ratsionda temirning qo'shimcha manbai",
+        "Almashinuv jarayonlari va umumiy holatni qo'llab-quvvatlash",
+      ],
+      usage:
+        "Ovqat vaqtida ichkariga: kattalar va 12 yoshdan katta bolalar — kuniga 1–2 marta 1 tabletkadan. Qo'llashdan oldin mutaxassis bilan maslahat tavsiya etiladi.",
+      dispensing: "Retseptsiz. BAQ.",
+      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.',
+    },
+    "altex-syrup": {
+      name: "Altex (sirop)",
+      tagline: "Balg'am chiqishini yengillashtirish uchun sirop shaklidagi BAQ",
+      description:
+        "Altex (sirop) — o'simlik ekstraktlari va atsetilsistein asosidagi biologik faol qo'shimcha bo'lib, balg'amni suyultirish va chiqarishga yordam beradi, nafas yo'llari qulayligini qo'llab-quvvatlaydi.",
+      composition: [
+        "Dorivor altey ekstrakti",
+        "Termopsis ekstrakti",
+        "Miya ildizi ekstrakti",
+        "Natriy gidrokarbonat",
+        "Atsetilsistein (ACC)",
+      ],
+      indications: [
+        "Sovuq holatlarida nafas yo'llarini qo'llab-quvvatlash",
+        "Balg'am chiqishini yengillashtirish",
+      ],
+      usage:
+        "Ovqatdan 5–10 daqiqa oldin ichkariga: 3–6 yosh — 1/2 doza kuniga 3 marta; 6–12 yosh — 1 doza kuniga 3 marta; 12 yoshdan katta va kattalar — 1–2 doza kuniga 3 marta. Davomiyligi: 7–10 kun yoki mutaxassis tavsiyasiga ko'ra.",
+      dispensing: "Retseptsiz. BAQ.",
+      manufacturer: '"AF FARMALECH" MChJ, Toshkent sh., Sergeli tumani, Nilufar ko\'chasi, 3-o\'tish, 2-uy.',
     },
   },
 } as const

@@ -8,6 +8,7 @@ import { Pill, FileText, AlertTriangle, Package, Thermometer, Factory, Clipboard
 import { useLanguage } from "@/contexts/language-context"
 // Импортировать хук
 import { useTranslatedProduct } from "@/lib/translated-products"
+import { cn } from "@/lib/utils"
 
 export default function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { t } = useLanguage()
@@ -67,10 +68,12 @@ export default function ProductDetailPage({ params }: { params: Promise<{ slug: 
             </div>
           </div>
           <div className="flex flex-col">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-brand-dark">{product.name}</h1>
+            <h1 className={cn("text-3xl md:text-4xl lg:text-5xl font-bold", product.color || "text-brand-dark")}>
+              {product.name}
+            </h1>
             <p className="mt-4 text-lg text-gray-600">{product.description}</p>
             <Badge  className="mt-6 w-fit text-base">
-              {product.dispensing || "БАД."}
+              {product.dispensing || "БАД"}
             </Badge>
 
             <div className="mt-10">

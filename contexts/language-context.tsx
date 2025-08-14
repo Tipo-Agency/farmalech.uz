@@ -25,25 +25,25 @@ const translations = {
     // Hero Section
     "hero.title": "FARMALECH: Инновации и забота о здоровье",
     "hero.description":
-      "Мы разрабатываем и производим высококачественные фармацевтические препараты, чтобы улучшить качество жизни людей. Приглашаем к сотрудничеству дистрибьюторов и аптечные сети.",
+      "Мы разрабатываем и производим высококачественные биологически активные добавки (БАДы), чтобы поддерживать качество жизни людей. Приглашаем к сотрудничеству дистрибьюторов и аптечные сети.",
     "hero.partner": "Стать партнером",
     "hero.products": "Наша продукция",
-    "hero.image.alt": "Фармацевтические исследования и разработка лекарств",
+    "hero.image.alt": "Исследования и разработка биологически активных добавок (БАД)",
 
     // About Section
     "about.title": "О компании FARMALECH",
     "about.description":
-      "FARMALECH — это динамично развивающаяся фармацевтическая компания, миссия которой — обеспечение населения доступными и эффективными средствами. Мы используем передовые технологии и строгие стандарты качества на всех этапах производства.",
+      "FARMALECH — это динамично развивающаяся компания, миссия которой — обеспечение населения доступными и качественными биологически активными добавками (БАДами). Мы используем передовые технологии и строгие стандарты качества на всех этапах производства.",
     "about.quality": "Высокое качество",
     "about.quality.desc": "Контроль на всех этапах производства.",
     "about.innovation": "Инновационные формулы",
-    "about.innovation.desc": "Современные и эффективные препараты.",
+    "about.innovation.desc": "Современные и эффективные БАДы.",
     "about.partnership": "Надежное партнерство",
     "about.partnership.desc": "Выгодные условия для дистрибьюторов.",
 
     // Products Section
     "products.title": "Наша продукция",
-    "products.description": "Ознакомьтесь с некоторыми из наших ключевых препаратов.",
+    "products.description": "Ознакомьтесь с некоторыми из наших ключевых БАДов.",
     "products.more": "Подробнее",
     "products.catalog": "Смотреть весь каталог",
 
@@ -75,7 +75,7 @@ const translations = {
 
     // Products Page
     "products.page.title": "Каталог продукции",
-    "products.page.description": "Полный спектр наших препаратов для вашего здоровья.",
+    "products.page.description": "Полный спектр наших БАДов для поддержания вашего здоровья.",
 
     // Product Detail
     "product.composition": "Состав",
@@ -122,8 +122,8 @@ const translations = {
 
     // About Us Expanded Section
     "about.expanded.title": "О компании FARMALECH - Лидере фармацевтической индустрии Узбекистана",
-    "about.expanded.subtitle": "Инновации, качество и доверие в каждом препарате",
-    "about.expanded.main": "FARMALECH — ведущая фармацевтическая компания Узбекистана, специализирующаяся на производстве высококачественных лекарственных средств и биологически активных добавок. С момента основания мы придерживаемся принципов инновационного подхода к разработке препаратов, строгого контроля качества и ответственного отношения к здоровью наших потребителей.",
+    "about.expanded.subtitle": "Инновации, качество и доверие в каждом продукте (БАД)",
+    "about.expanded.main": "FARMALECH — компания Узбекистана, специализирующаяся на производстве высококачественных биологически активных добавок (БАДов). С момента основания мы придерживаемся принципов инновационного подхода, строгого контроля качества и ответственного отношения к здоровью наших потребителей.",
     "about.expanded.mission": "Наша миссия — обеспечение доступности эффективных фармацевтических решений для улучшения качества жизни людей в Центральной Азии.",
     "about.expanded.production": "Современное производство с соблюдением международных стандартов GMP",
     "about.expanded.research": "Собственная исследовательская лаборатория и отдел разработки",
@@ -133,12 +133,12 @@ const translations = {
     // FAQ Section
     "faq.title": "Часто задаваемые вопросы",
     "faq.subtitle": "Ответы на популярные вопросы о нашей продукции и услугах",
-    "faq.question1": "Какие препараты производит FARMALECH?",
-    "faq.answer1": "FARMALECH производит широкий спектр фармацевтических препаратов и БАДов, включая препараты для сердечно-сосудистой системы, желудочно-кишечного тракта, дыхательных путей, а также витаминно-минеральные комплексы. Вся продукция соответствует международным стандартам качества.",
+    "faq.question1": "Какие БАДы производит FARMALECH?",
+    "faq.answer1": "FARMALECH производит широкий спектр биологически активных добавок (БАДов), включая продукты для поддержки сердечно-сосудистой системы, желудочно-кишечного тракта, дыхательных путей, а также витаминно-минеральные комплексы. Вся продукция соответствует высоким стандартам качества.",
     "faq.question2": "Как стать дистрибьютором FARMALECH?",
     "faq.answer2": "Для становления дистрибьютором необходимо заполнить заявку на партнерство на нашем сайте или связаться с нами по телефону +998 99 037 33 00. Мы рассматриваем предложения от аптечных сетей, оптовых поставщиков и региональных дистрибьюторов.",
     "faq.question3": "Соответствует ли продукция FARMALECH международным стандартам?",
-    "faq.answer3": "Да, все наши препараты производятся в соответствии с требованиями GMP (Good Manufacturing Practice) и проходят строгий контроль качества. Производство сертифицировано по международным стандартам.",
+    "faq.answer3": "Да, все наши продукты производятся в соответствии с требованиями GMP (Good Manufacturing Practice) и проходят строгий контроль качества. Производство сертифицировано по международным стандартам.",
     "faq.question4": "В каких регионах доступна продукция FARMALECH?",
     "faq.answer4": "Наша продукция доступна во всех регионах Узбекистана через сеть партнерских аптек и дистрибьюторов. Также мы работаем над расширением присутствия в странах Центральной Азии.",
     "faq.question5": "Предоставляет ли FARMALECH техническую поддержку?",
@@ -155,25 +155,25 @@ const translations = {
     // Hero Section
     "hero.title": "FARMALECH: Innovatsiyalar va salomatlik g'amxo'rligi",
     "hero.description":
-      "Biz odamlarning hayot sifatini yaxshilash uchun yuqori sifatli farmatsevtik preparatlarni ishlab chiqamiz va ishlab chiqaramiz. Distribyutorlar va dorixona tarmoqlarini hamkorlikka taklif qilamiz.",
+      "Biz odamlarning hayot sifatini qo'llab-quvvatlash uchun yuqori sifatli biologik faol qo'shimchalar (BAQ)ni ishlab chiqamiz va ishlab chiqaramiz. Distribyutorlar va dorixona tarmoqlarini hamkorlikka taklif qilamiz.",
     "hero.partner": "Hamkor bo'lish",
     "hero.products": "Bizning mahsulotlarimiz",
-    "hero.image.alt": "Farmatsevtik tadqiqotlar va dori vositalari ishlab chiqish",
+    "hero.image.alt": "Biologik faol qo'shimchalarni (BAQ) tadqiq etish va ishlab chiqish",
 
     // About Section
     "about.title": "FARMALECH kompaniyasi haqida",
     "about.description":
-      "FARMALECH - bu aholini arzon va samarali dori vositalari bilan ta'minlash missiyasiga ega bo'lgan jadal rivojlanayotgan farmatsevtik kompaniya. Biz ishlab chiqarishning barcha bosqichlarida ilg'or texnologiyalar va qat'iy sifat standartlaridan foydalanamiz.",
+      "FARMALECH — bu aholini sifatli biologik faol qo'shimchalar (BAQ) bilan ta'minlash missiyasiga ega bo'lgan jadal rivojlanayotgan kompaniya. Biz ishlab chiqarishning barcha bosqichlarida ilg'or texnologiyalar va qat'iy sifat standartlaridan foydalanamiz.",
     "about.quality": "Yuqori sifat",
     "about.quality.desc": "Ishlab chiqarishning barcha bosqichlarida nazorat.",
     "about.innovation": "Innovatsion formulalar",
-    "about.innovation.desc": "Zamonaviy va samarali preparatlar.",
+    "about.innovation.desc": "Zamonaviy va samarali BAQlar.",
     "about.partnership": "Ishonchli hamkorlik",
     "about.partnership.desc": "Distribyutorlar uchun foydali shartlar.",
 
     // Products Section
     "products.title": "Bizning mahsulotlarimiz",
-    "products.description": "Bizning asosiy preparatlarimizdan ba'zilari bilan tanishing.",
+    "products.description": "Bizning asosiy BAQlarimizdan ba'zilari bilan tanishing.",
     "products.more": "Batafsil",
     "products.catalog": "Butun katalogni ko'rish",
 
@@ -205,7 +205,7 @@ const translations = {
 
     // Products Page
     "products.page.title": "Mahsulotlar katalogi",
-    "products.page.description": "Salomatligingiz uchun preparatlarimizning to'liq spektri.",
+    "products.page.description": "Salomatligingizni qo'llab-quvvatlash uchun BAQlarimizning to'liq spektri.",
 
     // Product Detail
     "product.composition": "Tarkibi",
@@ -253,8 +253,8 @@ const translations = {
 
     // About Us Expanded Section
     "about.expanded.title": "FARMALECH kompaniyasi haqida - O'zbekiston farmatsevtika sohasining yetakchisi",
-    "about.expanded.subtitle": "Har bir preparatda innovatsiya, sifat va ishonch",
-    "about.expanded.main": "FARMALECH — O'zbekistonning yetakchi farmatsevtika kompaniyasi bo'lib, yuqori sifatli dori vositalari va biologik faol qo'shimchalar ishlab chiqarishga ixtisoslashgan. Tashkil etilgan kundan boshlab biz preparatlarni ishlab chiqishda innovatsion yondashuv, qat'iy sifat nazorati va iste'molchilarimiz salomatligiga mas'uliyatli munosabat tamoyillariga amal qilamiz.",
+    "about.expanded.subtitle": "Har bir mahsulotda (BAQ) innovatsiya, sifat va ishonch",
+    "about.expanded.main": "FARMALECH — O'zbekistonda yuqori sifatli biologik faol qo'shimchalar (BAQ) ishlab chiqarishga ixtisoslashgan kompaniya. Tashkil etilgan kundan boshlab biz innovatsion yondashuv, qat'iy sifat nazorati va iste'molchilarimiz salomatligiga mas'uliyatli munosabat tamoyillariga amal qilamiz.",
     "about.expanded.mission": "Bizning missiyamiz — Markaziy Osiyoda odamlarning hayot sifatini yaxshilash uchun samarali farmatsevtika yechimlarining mavjudligini ta'minlash.",
     "about.expanded.production": "Xalqaro GMP standartlariga muvofiq zamonaviy ishlab chiqarish",
     "about.expanded.research": "O'z tadqiqot laboratoriyasi va ishlab chiqish bo'limi",
@@ -264,12 +264,12 @@ const translations = {
     // FAQ Section
     "faq.title": "Tez-tez beriladigan savollar",
     "faq.subtitle": "Mahsulotlarimiz va xizmatlarimiz haqida mashhur savollarga javoblar",
-    "faq.question1": "FARMALECH qanday preparatlar ishlab chiqaradi?",
-    "faq.answer1": "FARMALECH farmatsevtika preparatlari va BAQlarning keng spektrini ishlab chiqaradi, jumladan yurak-qon tomir tizimi, oshqozon-ichak trakti, nafas yo'llari uchun preparatlar, shuningdek vitamin-mineral komplekslari. Barcha mahsulotlar xalqaro sifat standartlariga javob beradi.",
+    "faq.question1": "FARMALECH qanday BAQlar ishlab chiqaradi?",
+    "faq.answer1": "FARMALECH biologik faol qo'shimchalarning (BAQ) keng spektrini ishlab chiqaradi, jumladan yurak-qon tomir tizimi, oshqozon-ichak trakti, nafas yo'llari uchun mahsulotlar, shuningdek vitamin-mineral komplekslari. Barcha mahsulotlar yuqori sifat standartlariga javob beradi.",
     "faq.question2": "FARMALECH distribyutori qanday bo'lish mumkin?",
     "faq.answer2": "Distribyutor bo'lish uchun bizning saytimizda hamkorlik uchun ariza to'ldirish yoki +998 99 037 33 00 raqamiga qo'ng'iroq qilish kerak. Biz dorixona tarmoqlari, ulgurji yetkazib beruvchilar va mintaqaviy distribyutorlardan takliflarni ko'rib chiqamiz.",
     "faq.question3": "FARMALECH mahsulotlari xalqaro standartlarga muvofiqligi?",
-    "faq.answer3": "Ha, bizning barcha preparatlarimiz GMP (Good Manufacturing Practice) talablariga muvofiq ishlab chiqariladi va qat'iy sifat nazoratidan o'tadi. Ishlab chiqarish xalqaro standartlar bo'yicha sertifikatlangan.",
+    "faq.answer3": "Ha, bizning barcha mahsulotlarimiz GMP (Good Manufacturing Practice) talablariga muvofiq ishlab chiqariladi va qat'iy sifat nazoratidan o'tadi. Ishlab chiqarish xalqaro standartlar bo'yicha sertifikatlangan.",
     "faq.question4": "FARMALECH mahsulotlari qaysi hududlarda mavjud?",
     "faq.answer4": "Bizning mahsulotlarimiz hamkor dorixonalar va distribyutorlar tarmog'i orqali O'zbekistonning barcha hududlarida mavjud. Shuningdek, biz Markaziy Osiyo davlatlarida ham ishtirokimizni kengaytirishga ishlamoqdamiz.",
     "faq.question5": "FARMALECH texnik yordam beradimi?",

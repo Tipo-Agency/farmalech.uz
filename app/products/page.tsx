@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/contexts/language-context"
 import { useTranslatedProducts } from "@/lib/translated-products"
+import { cn } from "@/lib/utils"
 
 export default function ProductsPage() {
   const { t } = useLanguage()
@@ -30,7 +31,7 @@ export default function ProductsPage() {
                   <div className="w-full h-52 bg-white flex items-center justify-center">
                     <Image
                       src={product.image || "/placeholder.svg"}
-                      alt={`${product.name} - препарат FARMALECH для здоровья`}
+                      alt={`${product.name} - БАД FARMALECH для здоровья`}
                       width={400}
                       height={400}
                       className="max-w-full max-h-full object-contain"
@@ -38,7 +39,7 @@ export default function ProductsPage() {
                   </div>
                 </CardHeader>
                 <CardContent className="p-4">
-                  <h3 className="text-lg font-bold text-brand-dark">{product.name}</h3>
+                  <h3 className={cn("text-lg font-bold", product.color || "text-brand-dark")}>{product.name}</h3>
                   <p className="text-sm text-muted-foreground mt-1">{product.tagline}</p>
                   <Button variant="link" className="p-0 mt-4">
                     {t("products.more")} →
