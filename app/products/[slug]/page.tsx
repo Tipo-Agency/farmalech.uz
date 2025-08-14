@@ -71,6 +71,11 @@ export default function ProductDetailPage({ params }: { params: Promise<{ slug: 
             <h1 className={cn("text-3xl md:text-4xl lg:text-5xl font-bold", product.color || "text-brand-dark")}>
               {product.name}
             </h1>
+            {product.price ? (
+              <p className="mt-3 text-2xl font-semibold text-blue-600">
+                {product.price.toLocaleString("ru-RU")} сум
+              </p>
+            ) : null}
             <p className="mt-4 text-lg text-gray-600">{product.description}</p>
             <Badge  className="mt-6 w-fit text-base">
               {product.dispensing || "БАД"}

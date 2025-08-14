@@ -6,6 +6,7 @@ export interface Product {
   tagline: string
   image: string
   color?: string
+  price?: number
   description: string
   composition: string[]
   pharmacology?: ReactNode
@@ -102,6 +103,7 @@ export const products: Product[] = [
     shelfLife: "2 года. Не применять по истечении срока годности, указанного на упаковке.",
     dispensing: "Без рецепта. БАД.",
     manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 60000,
   },
   {
     slug: "altex-syrup",
@@ -160,6 +162,7 @@ export const products: Product[] = [
     shelfLife: "2 года. Не применять по истечении срока годности, указанного на упаковке.",
     dispensing: "Без рецепта. БАД.",
     manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 65000,
   },
   {
     slug: "ferrum-life",
@@ -258,6 +261,7 @@ export const products: Product[] = [
     dispensing: "Без рецепта. БАД.",
     manufacturer:
       "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 67000,
   },
   {
     slug: "ferrum-life-tablets",
@@ -315,6 +319,7 @@ export const products: Product[] = [
     shelfLife: "2 года. Не использовать по истечении срока годности.",
     dispensing: "Без рецепта. БАД.",
     manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 57000,
   },
   {
     slug: "us-botik",
@@ -407,6 +412,7 @@ export const products: Product[] = [
     shelfLife: "3 года. Не применять по истечении срока годности, указанного на упаковке.",
     dispensing: "Без рецепта. БАД.",
     manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 55000,
   },
   {
     slug: "lidafron",
@@ -500,6 +506,7 @@ export const products: Product[] = [
     shelfLife: "3 года. Не применять по истечении срока годности, указанного на упаковке.",
     dispensing: "Без рецепта. БАД.",
     manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 85000,
   },
   {
     slug: "fitovag",
@@ -614,6 +621,7 @@ export const products: Product[] = [
       "2 года. Не применять по истечении срока годности, указанного на упаковке. Срок годности применим к изделию, которое не было раскрыто и хранилось в установленных условиях.",
     dispensing: "Без рецепта.",
     manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 139000,
   },
   {
     slug: "sedok",
@@ -721,6 +729,7 @@ export const products: Product[] = [
     shelfLife: "2 года. Не применять по истечении срока годности, указанного на упаковке.",
     dispensing: "Без рецепта. БАД.",
     manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 127000,
   },
   {
     slug: "ca-tron",
@@ -824,6 +833,7 @@ export const products: Product[] = [
     shelfLife: "3 года. Не применять по истечении срока годности, указанного на упаковке.",
     dispensing: "Без рецепта. БАД.",
     manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 66000,
   },
   {
     slug: "kukavit",
@@ -906,6 +916,7 @@ export const products: Product[] = [
     shelfLife: "2 года. Не применять по истечении срока годности, указанного на упаковке.",
     dispensing: "Без рецепта. БАД.",
     manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 57000,
   },
   {
     slug: "novaton",
@@ -991,6 +1002,7 @@ export const products: Product[] = [
     shelfLife: "3 года. Не применять по истечении срока годности, указанного на упаковке.",
     dispensing: "Без рецепта. БАД.",
     manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 199000,
   },
   {
     slug: "protab",
@@ -1084,6 +1096,7 @@ export const products: Product[] = [
     shelfLife: "2 года. Не применять по истечении срока годности, указанного на упаковке.",
     dispensing: "Без рецепта. БАД.",
     manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 57000,
   },
   {
     slug: "sorbitum",
@@ -1187,6 +1200,7 @@ export const products: Product[] = [
     shelfLife: "2 года. Не применять по истечении срока годности, указанного на упаковке.",
     dispensing: "Без рецепта. БАД.",
     manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 61000,
   },
   {
     slug: "provir",
@@ -1286,6 +1300,7 @@ export const products: Product[] = [
     shelfLife: "2 года. Не применять по истечении срока годности, указанного на упаковке.",
     dispensing: "Без рецепта. БАД.",
     manufacturer: "ООО «AF FARMALECH» г. Ташкент, Сергелийский район, ул Нилюфар, 3 проезд 2.",
+    price: 71000,
   },
 ]
 

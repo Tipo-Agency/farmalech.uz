@@ -113,6 +113,11 @@ export default function HomePage() {
                   <CardContent className="p-6">
                     <h3 className={cn("text-xl font-bold", product.color || "text-brand-dark")}>{product.name}</h3>
                     <p className="text-muted-foreground mt-2">{product.tagline}</p>
+                    {product.price ? (
+                      <p className="mt-3 font-semibold text-blue-600">
+                        {product.price.toLocaleString("ru-RU")} сум
+                      </p>
+                    ) : null}
                     <Link href={`/products/${product.slug}`} className="mt-4 inline-block">
                       <Button>{t("products.more")}</Button>
                     </Link>

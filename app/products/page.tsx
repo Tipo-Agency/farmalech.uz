@@ -41,6 +41,11 @@ export default function ProductsPage() {
                 <CardContent className="p-4">
                   <h3 className={cn("text-lg font-bold", product.color || "text-brand-dark")}>{product.name}</h3>
                   <p className="text-sm text-muted-foreground mt-1">{product.tagline}</p>
+                  {product.price ? (
+                    <p className="mt-2 font-semibold text-blue-600">
+                      {product.price.toLocaleString("ru-RU")} сум
+                    </p>
+                  ) : null}
                   <Button variant="link" className="p-0 mt-4">
                     {t("products.more")} →
                   </Button>
