@@ -98,7 +98,7 @@ export default function HomePage() {
             </div>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {translatedProducts.map((product) => (
-                <Card key={product.slug} className="overflow-hidden">
+                <Card key={product.slug} className="overflow-hidden h-full flex flex-col">
                   <CardHeader className="p-0">
                     <div className="w-full h-60 bg-white flex items-center justify-center">
                       <Image
@@ -110,7 +110,7 @@ export default function HomePage() {
                       />
                     </div>
                   </CardHeader>
-                  <CardContent className="p-6">
+                  <CardContent className="p-6 flex flex-col flex-1">
                     <h3 className={cn("text-xl font-bold", product.color || "text-brand-dark")}>{product.name}</h3>
                     <p className="text-muted-foreground mt-2">{product.tagline}</p>
                     {product.price ? (
@@ -118,8 +118,8 @@ export default function HomePage() {
                         {product.price.toLocaleString("ru-RU")} сум
                       </p>
                     ) : null}
-                    <Link href={`/products/${product.slug}`} className="mt-4 inline-block">
-                      <Button>{t("products.more")}</Button>
+                    <Link href={`/products/${product.slug}`} className="mt-auto inline-block">
+                      <Button className="mt-2">{t("products.more")}</Button>
                     </Link>
                   </CardContent>
                 </Card>
