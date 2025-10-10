@@ -19,9 +19,18 @@ export function Footer() {
             </div>
           </Link>
           <p className="text-muted-foreground text-gray-300">{t("footer.description")}</p>
-          <p className="text-sm text-gray-400">
+          <p className="text-sm text-white">
             &copy; {new Date().getFullYear()} FARMALECH. {t("footer.rights")}
           </p>
+          <a
+            href="https://tipa.uz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 group"
+          >
+            <span className="text-sm text-white">&copy;</span>
+            <img src="/tipa_agency.svg" alt="Типа агенство" className="h-5 w-auto opacity-90 group-hover:opacity-100 transition-opacity" />
+          </a>
         </div>
         <div className="grid gap-2">
           <h4 className="font-semibold text-lg">{t("footer.navigation")}</h4>
