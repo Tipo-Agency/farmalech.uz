@@ -87,6 +87,7 @@ const translations = {
     "product.releaseForm": "Форма выпуска",
     "product.storage": "Условия хранения",
     "product.manufacturer": "Производитель",
+    "product.brochure": "Брошюра производителя (PDF)",
 
     // Contacts Page
     "contacts.title": "Свяжитесь с нами",
@@ -217,6 +218,7 @@ const translations = {
     "product.releaseForm": "Chiqarish shakli",
     "product.storage": "Saqlash sharoitlari",
     "product.manufacturer": "Ishlab chiqaruvchi",
+    "product.brochure": "Ishlab chiqaruvchi bukleti (PDF)",
 
     // Contacts Page
     "contacts.title": "Biz bilan bog'laning",

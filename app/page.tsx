@@ -12,6 +12,7 @@ import { CheckCircle, Award, Users, Shield, Factory } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 import { useTranslatedProducts } from "@/lib/translated-products"
 import { cn } from "@/lib/utils"
+import { ProductImage } from "@/components/product-image"
 
 export default function HomePage() {
   const { t } = useLanguage()
@@ -101,13 +102,7 @@ export default function HomePage() {
                 <Card key={product.slug} className="overflow-hidden h-full flex flex-col">
                   <CardHeader className="p-0">
                     <div className="w-full h-60 bg-white flex items-center justify-center">
-                      <Image
-                        src={product.image || "/placeholder.svg"}
-                        alt={`${product.name} - БАД FARMALECH`}
-                        width={400}
-                        height={400}
-                        className="max-w-full max-h-full object-contain"
-                      />
+                      <ProductImage product={product} className="max-w-full max-h-full object-contain" />
                     </div>
                   </CardHeader>
                   <CardContent className="p-6 flex flex-col flex-1">

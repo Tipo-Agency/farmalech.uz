@@ -1,7 +1,6 @@
 "use client"
 import { use } from "react"
 import { notFound } from "next/navigation"
-import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Pill, FileText, AlertTriangle, Package, Thermometer, Factory, ClipboardList, TestTube2 } from "lucide-react"
@@ -9,6 +8,7 @@ import { useLanguage } from "@/contexts/language-context"
 // Импортировать хук
 import { useTranslatedProduct } from "@/lib/translated-products"
 import { cn } from "@/lib/utils"
+import { ProductImage } from "@/components/product-image"
 
 export default function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { t } = useLanguage()
@@ -58,13 +58,7 @@ export default function ProductDetailPage({ params }: { params: Promise<{ slug: 
         <div className="grid md:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex flex-col items-center">
             <div className="sticky top-24 w-full bg-white rounded-xl p-4 md:p-8 flex justify-center items-center">
-              <Image
-                src={product.image || "/placeholder.svg"}
-                alt={product.name}
-                width={500}
-                height={500}
-                className="max-w-full h-auto object-contain max-h-[450px]"
-              />
+              <ProductImage product={product} size={500} className="max-w-full h-auto object-contain max-h-[450px]" />
             </div>
           </div>
           <div className="flex flex-col">
@@ -80,6 +74,13 @@ export default function ProductDetailPage({ params }: { params: Promise<{ slug: 
             <Badge  className="mt-6 w-fit text-base">
               {product.dispensing || "БАД"}
             </Badge>
+
+            {product.brochure && (
+              <a href={product.brochure} target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex w-fit items-center gap-2 rounded-md border border-primary px-4 py-3 font-medium text-primary hover:bg-primary/5">
+                <FileText className="h-5 w-5" aria-hidden="true" />
+                {t("product.brochure")}
+              </a>
+            )}
 
             <div className="mt-10">
               <Accordion type="single" collapsible className="w-full" defaultValue="item-0">
