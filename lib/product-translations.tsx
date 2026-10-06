@@ -1,6 +1,7 @@
 "use client"
 
 import type { ReactNode } from "react"
+import { newProductTranslationsUz } from "./new-product-translations"
 
 export interface ProductTranslations {
   [key: string]: {
@@ -156,6 +157,7 @@ export const productTranslations = {
     },
   },
   uz: {
+    ...newProductTranslationsUz,
     sedok: {
       name: "Sedok L-arginin",
       tagline: "Yurak-qon tomir tizimi uchun shartli muhim aminokislota",

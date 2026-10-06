@@ -1,12 +1,12 @@
 "use client"
 
 import Link from "next/link"
-import Image from "next/image"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/contexts/language-context"
 import { useTranslatedProducts } from "@/lib/translated-products"
 import { cn } from "@/lib/utils"
+import { ProductImage } from "@/components/product-image"
 
 export default function ProductsPage() {
   const { t } = useLanguage()
@@ -29,13 +29,7 @@ export default function ProductsPage() {
               <Card className="h-full overflow-hidden transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2">
                 <CardHeader className="p-0">
                   <div className="w-full h-52 bg-white flex items-center justify-center">
-                    <Image
-                      src={product.image || "/placeholder.svg"}
-                      alt={`${product.name} - БАД FARMALECH для здоровья`}
-                      width={400}
-                      height={400}
-                      className="max-w-full max-h-full object-contain"
-                    />
+                    <ProductImage product={product} className="max-w-full max-h-full object-contain" />
                   </div>
                 </CardHeader>
                 <CardContent className="p-4">

@@ -1,4 +1,5 @@
 import type { ReactNode } from "react"
+import { newProducts } from "./new-products"
 
 export interface Product {
   slug: string
@@ -19,9 +20,12 @@ export interface Product {
   shelfLife?: string
   dispensing?: string
   manufacturer?: string
+  brochure?: string
+  imageViewport?: string
 }
 
 export const products: Product[] = [
+  ...newProducts,
   {
     slug: "altex",
     name: "Altex (таблетки)",
