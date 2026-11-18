@@ -92,3 +92,54 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Blog article typography (kept in the site's own palette) */
+.article-body {
+  color: #374151;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+.article-body > * + * {
+  margin-top: 1rem;
+}
+.article-body h2 {
+  margin-top: 2.5rem;
+  font-size: 1.625rem;
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #212529;
+  scroll-margin-top: 6rem;
+}
+.article-body h3 {
+  margin-top: 1.75rem;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  font-weight: 600;
+  color: #212529;
+}
+.article-body ul,
+.article-body ol {
+  padding-left: 1.5rem;
+}
+.article-body ul {
+  list-style: disc;
+}
+.article-body ol {
+  list-style: decimal;
+}
+.article-body li + li {
+  margin-top: 0.375rem;
+}
+.article-body a {
+  color: #0072bc;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.article-body a:hover {
+  color: #e53935;
+}
+.article-body strong {
+  color: #212529;
+  font-weight: 600;
+}

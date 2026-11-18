@@ -162,7 +162,7 @@ export const productTranslations = {
       name: "Sedok L-arginin",
       tagline: "Yurak-qon tomir tizimi uchun shartli muhim aminokislota",
       description:
-        "Sedok - bu L-arginin asosidagi biologik faol qo'shimcha bo'lib, shartli muhim aminokislotadir. Azot oksidi (NO) donatori hisoblanadi, fermentativ tizimlarni ta'minlashni yaxshilaydi, transaminatsiya reaktsiyalarida ishtirok etadi va organizmni oqsil almashinuv mahsulotlaridan tozalashni kuchaytiradi. Dunyo amaliyotida kardiologik va immunitet kasalliklarini davolashda eng kuchli aminokislota hisoblanadi.",
+        "Sedok - bu L-arginin asosidagi biologik faol qo'shimcha bo'lib, shartli muhim aminokislotadir. Azot oksidi (NO) donatori hisoblanadi, fermentativ tizimlarni ta'minlashni yaxshilaydi, transaminatsiya reaktsiyalarida ishtirok etadi va organizmni oqsil almashinuv mahsulotlaridan tozalashni kuchaytiradi.",
       composition: ["L-arginin - 0,5 g"],
       pharmacology: "L-arginin - shartli muhim alifatik aminokislota. NO donatori hisoblanadi va uning tashuvchisi vazifasini bajaradi. Fermentativ tizimlarni azot oksidi bilan ta'minlashni yaxshilaydi, transaminatsiya reaktsiyalarida ishtirok etadi, organizmni to'plangan oqsil almashinuv mahsulotlaridan tozalashni kuchaytiradi. Azot oksidi (NO) - juda kuchli qon tomir kengaytiruvchi komponent va neyromediator. Ereksiya qobiliyati va uni saqlab turishda muhim rol o'ynaydi. Arterial qon tomirlari miyorelaksatsiyasining mediatoridir, qon tomirlar tonusini va arterial bosimni tartibga soladi. Xolesteringa ta'siri: kuniga 6-15 g dozalar LNP-xolesterin darajasini kamaytiradi. Antitrombotik ta'sir: qon ivishlariga qarshi ta'sir ko'rsatadi. Reproduktiv funksiyaga ta'siri: urug'lik suyuqligining 80% gacha qismini tashkil etadi.",
       indications: [
@@ -178,7 +178,7 @@ export const productTranslations = {
         "Jigar fibrozi",
         "Jigar sirozi",
       ],
-      usage: "Kapsulalar ovqat bilan qabul qilinadi. Kattalar: kuniga 2-4 marta 0,5-0,75 g. O'rtacha kurs: 2 hafta. Jismoniy rivojlanish kechikishi bo'lgan bolalar: sutka davomida 1 g gacha (sutka davomida 2 kapsuladan), 1 hafta. Yurak kasalliklari: sutka davomida 10-15 g gacha. Impotensiya davolash: sutka davomida 2,5 g gacha. Qabul muddati va takroriy kurs shifokor bilan kelishiladi.",
+      usage: "Kapsulalar ovqat bilan qabul qilinadi. Kattalar: kuniga 2-4 marta 0,5-0,75 g. O'rtacha kurs: 2 hafta. Jismoniy rivojlanish kechikishi bo'lgan bolalar: sutka davomida 1 g gacha (sutka davomida 2 kapsuladan), 1 hafta. Qabul muddati va takroriy kurs shifokor bilan kelishiladi.",
       contraindications: "L-argininga yuqori sezuvchanlik, gerpes infeksiyasi, laktatsiya, elektrolitik muvozanat buzilishi, anuriya, buyrak kasalliklari, 12 yoshgacha bolalar yoshi, homiladorlik (faqat preeklampsiya va erta toksikoz vaqtida shifokor tayinlamasiga ko'ra).",
       overdose: "Terapevtik dozani oshirish zaharlanish belgilari bilan ehtimoli past, chunki buning uchun L-argininning juda yuqori dozalarini qabul qilish kerak - tana vazni kg uchun 5 g. Allergik reaktsiyalar, immunitet pasayishi (uzoq kurslar bilan), gerpes infeksiyasining asorati xavfi, ortiqcha qo'zg'aluvchanlik, uyqu buzilishi mumkin.",
       releaseForm: "Blisterda 10 donadan kapsulalar. Karton qutida 3 blister (30 kapsuladan) qo'llash yo'riqnomasi bilan birga.",
@@ -285,7 +285,7 @@ export const productTranslations = {
       name: "Fitovag",
       tagline: "6 ta faol komponent bilan o'simlik vaginal suppozitoriyalar",
       description:
-        "Fitovag - bu ginekologik kasalliklarni davolash uchun 6 ta faol o'simlik komponentini o'z ichiga olgan o'simlik fitosham'lar. Yallig'lanishga qarshi, antiseptik, antimikrob, regenerativ va shifo beruvchi ta'sirga ega. Turli ginekologik kasalliklarning kompleks davolashi uchun mo'ljallangan.",
+        "Fitovag — 6 ta komponentli (o'simlik ekstraktlari va rux) o'simlik asosidagi vaginal suppozitoriylar. Ginekologik kasalliklarning kompleks terapiyasi tarkibida shifokor tayinlovi va nazorati ostida qo'llaniladi.",
       composition: [
         "Borovaya matka ekstrakti - 100 mg",
         "Eman qobig'i ekstrakti - 100 mg",
@@ -349,7 +349,7 @@ export const productTranslations = {
     },
     "ferrum-life": {
       name: "FERRUM LIFE (sirop)",
-      tagline: "Temir tanqisligi anemiyasini oldini olish va davolash uchun sirop",
+      tagline: "Temir tanqisligining oldini olish uchun temirli sirop",
       description:
         "FERRUM LIFE - bu temir (III) gidroksid polimalttozatni o'z ichiga olgan sirop bo'lib, gemoglobin sintezi va eritrotsitlar pishishi uchun zarur. Preparat organizmda temir tanqisligini tezda to'ldiradi, eritropoezni faollashtiradi va gemoglobinni tiklaydi.",
       composition: [
@@ -425,7 +425,7 @@ export const productTranslations = {
       name: "Novaton",
       tagline: "Tribulus, jen-shen va L-arginin bilan erkaklar kompleksi",
       description:
-        "Novaton - bu organizmga foydali fitobirikmalarning muvozanatli kompleksi bo'lib, asosan erkaklar siydik-jinsiy apparatining funksional xususiyatlariga bir yo'nalishli ijobiy ta'sir ko'rsatadi. Vosita erektil disfunksiyani davolashda yordam beradi, testosteron darajasini oshiradi va spermatogenezni yaxshilaydi.",
+        "Novaton - bu organizmga foydali fitobirikmalarning muvozanatli kompleksi bo'lib, asosan erkaklar siydik-jinsiy apparatining funksional xususiyatlariga bir yo'nalishli ijobiy ta'sir ko'rsatadi. Erkaklar salomatligini qoʻllab-quvvatlash uchun L-arginin, magniy, B6 vitamini va oʻsimlik ekstraktlarining qoʻshimcha manbai sifatida qoʻllaniladi.",
       composition: [
         "Quruq tribulus ekstrakti - 200 mg",
         "Quruq jen-shen ekstrakti - 100 mg",

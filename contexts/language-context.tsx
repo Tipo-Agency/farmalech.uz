@@ -1,6 +1,7 @@
 "use client"
 
 import { createContext, useContext, useState, useEffect, type ReactNode } from "react"
+import { usePathname } from "next/navigation"
 
 type Language = "ru" | "uz"
 
@@ -20,6 +21,7 @@ const translations = {
     "nav.products": "Продукция",
     "nav.partnership": "Партнерство",
     "nav.contacts": "Контакты",
+    "nav.blog": "Блог",
     "nav.menu": "Открыть меню",
 
     // Hero Section
@@ -151,6 +153,7 @@ const translations = {
     "nav.products": "Mahsulotlar",
     "nav.partnership": "Hamkorlik",
     "nav.contacts": "Kontaktlar",
+    "nav.blog": "Blog",
     "nav.menu": "Menyuni ochish",
 
     // Hero Section
@@ -280,18 +283,32 @@ const translations = {
 }
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>("ru")
+  const pathname = usePathname()
+  // Pages under /uz/ always render in Uzbek, other pages use the saved choice.
+  const forcedLanguage: Language | null = pathname?.startsWith("/uz/") || pathname === "/uz" ? "uz" : pathname?.startsWith("/blog") ? "ru" : null
+  const [savedLanguage, setLanguage] = useState<Language>("ru")
+  const language: Language = forcedLanguage ?? savedLanguage
 
   useEffect(() => {
-    const savedLanguage = localStorage.getItem("language") as Language
-    if (savedLanguage && (savedLanguage === "ru" || savedLanguage === "uz")) {
-      setLanguage(savedLanguage)
+    try {
+      const stored = localStorage.getItem("language") as Language
+      if (stored === "ru" || stored === "uz") setLanguage(stored)
+    } catch {
+      // storage may be unavailable
     }
   }, [])
 
+  useEffect(() => {
+    document.documentElement.lang = language
+  }, [language])
+
   const handleSetLanguage = (lang: Language) => {
     setLanguage(lang)
-    localStorage.setItem("language", lang)
+    try {
+      localStorage.setItem("language", lang)
+    } catch {
+      // ignore
+    }
   }
 
   const t = (key: string): string => {

@@ -46,7 +46,9 @@ const AccordionContent = React.forwardRef<
 >(({ className, children, ...props }, ref) => (
   <AccordionPrimitive.Content
     ref={ref}
-    className="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+    // Render closed panels into the HTML (hidden) so search engines see the full text
+    forceMount
+    className="overflow-hidden text-sm transition-all data-[state=closed]:hidden"
     {...props}
   >
     <div className={cn("pb-4 pt-0", className)}>{children}</div>

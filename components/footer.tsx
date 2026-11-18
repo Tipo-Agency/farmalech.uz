@@ -2,15 +2,16 @@
 
 import Link from "next/link"
 import { useLanguage } from "@/contexts/language-context"
+import { trackGoal } from "@/lib/analytics"
 
 export function Footer() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
 
   return (
     <footer id="contacts" className="bg-brand-dark text-white">
       <div className="container mx-auto grid grid-cols-1 gap-8 px-4 py-12 md:grid-cols-3 md:px-6">
         <div className="flex flex-col gap-4">
-          <Link href="/">
+          <Link href="/" aria-label="FARMALECH — на главную">
             <div className="flex items-center gap-2">
               <div className="flex items-center justify-center w-10 h-10 bg-brand-red rounded-full">
                 <span className="text-white font-bold text-xl">AF</span>
@@ -25,25 +26,32 @@ export function Footer() {
           <a style={{ display: "inline-flex", alignItems: "center", gap: 8, minHeight: 42, fontSize: 10, lineHeight: 1, letterSpacing: ".04em", textDecoration: "none", color: "inherit" }} href="https://tipa.uz/ru" target="_blank" rel="nofollow noopener noreferrer" aria-label="Сайт разработан агентством TIPA"><span>Сделано</span><img src="/media/tipa-agency-animated.svg" alt="TIPA" width={64} height={42} style={{ display: "block", width: 64, height: 42, objectFit: "contain" }} /></a>
         </div>
         <div className="grid gap-2">
-          <h4 className="font-semibold text-lg">{t("footer.navigation")}</h4>
-          <Link href="/#about" className="hover:text-primary transition-colors">
+          <p className="font-semibold text-lg">{t("footer.navigation")}</p>
+          <Link href="/#about" className="hover:text-gray-300 transition-colors">
             {t("nav.about")}
           </Link>
-          <Link href="/products" className="hover:text-primary transition-colors">
+          <Link href="/products" className="hover:text-gray-300 transition-colors">
             {t("nav.products")}
           </Link>
-          <Link href="/#partnership" className="hover:text-primary transition-colors">
+          <Link href="/#partnership" className="hover:text-gray-300 transition-colors">
             {t("nav.partnership")}
           </Link>
-          <Link href="/contacts" className="hover:text-primary transition-colors">
+          <Link href={language === "uz" ? "/uz/blog" : "/blog"} className="hover:text-gray-300 transition-colors">
+            {t("nav.blog")}
+          </Link>
+          <Link href="/contacts" className="hover:text-gray-300 transition-colors">
             {t("nav.contacts")}
           </Link>
         </div>
         <div className="grid gap-2">
-          <h4 className="font-semibold text-lg">{t("footer.contacts")}</h4>
+          <p className="font-semibold text-lg">{t("footer.contacts")}</p>
           <p>{t("footer.address")}</p>
-          <p>{t("footer.phone")}</p>
-          <p>{t("footer.email")}</p>
+          <a href="tel:+998990373300" onClick={() => trackGoal("click_phone")} className="hover:text-gray-300 transition-colors">
+            {t("footer.phone")}
+          </a>
+          <a href="mailto:info@farmalech.uz" className="hover:text-gray-300 transition-colors">
+            {t("footer.email")}
+          </a>
         </div>
       </div>
     </footer>
